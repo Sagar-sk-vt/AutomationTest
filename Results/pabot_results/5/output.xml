@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.13.14 on win32)" generated="2026-07-09T21:07:13.678462" rpa="false" schemaversion="5">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="DataDrivenTesting Excel" source="C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\TestCases\DataDrivenTesting_Excel.robot">
+<kw name="Open My Browser" type="SETUP">
+<msg time="2026-07-09T21:07:15.328031" level="FAIL">No keyword with name 'Open My Browser' found. Did you mean:
+    SeleniumLibrary.Open Browser</msg>
+<status status="FAIL" start="2026-07-09T21:07:15.327860" elapsed="0.000291">No keyword with name 'Open My Browser' found. Did you mean:
+    SeleniumLibrary.Open Browser</status>
+</kw>
+<test id="s1-s1-t1" name="InvalidLoginTest ${username} and ${password}" line="10">
+<status status="FAIL" start="2026-07-09T21:07:15.329970" elapsed="0.000737">Parent suite setup failed:
+No keyword with name 'Open My Browser' found. Did you mean:
+    SeleniumLibrary.Open Browser</status>
+</test>
+<kw name="Closed Browser" type="TEARDOWN">
+<msg time="2026-07-09T21:07:15.333701" level="FAIL">No keyword with name 'Closed Browser' found. Did you mean:
+    SeleniumLibrary.Close Browser</msg>
+<status status="FAIL" start="2026-07-09T21:07:15.333563" elapsed="0.000237">No keyword with name 'Closed Browser' found. Did you mean:
+    SeleniumLibrary.Close Browser</status>
+</kw>
+<status status="FAIL" start="2026-07-09T21:07:13.888144" elapsed="1.445813">Suite setup failed:
+No keyword with name 'Open My Browser' found. Did you mean:
+    SeleniumLibrary.Open Browser
+
+Also suite teardown failed:
+No keyword with name 'Closed Browser' found. Did you mean:
+    SeleniumLibrary.Close Browser</status>
+</suite>
+<status status="FAIL" start="2026-07-09T21:07:13.681580" elapsed="1.653830"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Suites" id="s1" pass="0" fail="1" skip="0">Suites</stat>
+<stat name="DataDrivenTesting Excel" id="s1-s1" pass="0" fail="1" skip="0">Suites.DataDrivenTesting Excel</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2026-07-09T21:07:15.320689" level="ERROR">Error in file 'C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\TestCases\DataDrivenTesting_Excel.robot' on line 3: Resource file '..\Resources\Login_Resources.robot' does not exist.</msg>
+<msg time="2026-07-09T21:07:15.323266" level="ERROR">Error in file 'C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\TestCases\DataDrivenTesting_Excel.robot' on line 4: Importing library 'DataDriver' failed: ModuleNotFoundError: No module named 'DataDriver'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\SagarKhobragade\AppData\Local\Programs\Python\Python313\Scripts\robot.exe
+  C:\Users\SagarKhobragade\AppData\Local\Programs\Python\Python313\python313.zip
+  C:\Users\SagarKhobragade\AppData\Local\Programs\Python\Python313\DLLs
+  C:\Users\SagarKhobragade\AppData\Local\Programs\Python\Python313\Lib
+  C:\Users\SagarKhobragade\AppData\Local\Programs\Python\Python313
+  C:\Users\SagarKhobragade\AppData\Local\Programs\Python\Python313\Lib\site-packages</msg>
+</errors>
+</robot>

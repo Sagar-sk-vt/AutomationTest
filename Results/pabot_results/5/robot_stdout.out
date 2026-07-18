@@ -1,0 +1,25 @@
+==============================================================================
+Suites
+==============================================================================
+Suites.DataDrivenTesting Excel
+==============================================================================
+InvalidLoginTest ${username} and ${password}                          | FAIL |
+Parent suite setup failed:
+No keyword with name 'Open My Browser' found. Did you mean:
+    SeleniumLibrary.Open Browser
+------------------------------------------------------------------------------
+Suites.DataDrivenTesting Excel                                        | FAIL |
+Suite setup failed:
+No keyword with name 'Open My Browser' found. Did you mean:
+    SeleniumLibrary.Open Browser
+
+Also suite teardown failed:
+No keyword with name 'Closed Browser' found. Did you mean:
+    SeleniumLibrary.Close Browser
+
+1 test, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\Results\pabot_results\5\output.xml

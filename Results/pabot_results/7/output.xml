@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.13.14 on win32)" generated="2026-07-09T21:07:15.762976" rpa="false" schemaversion="5">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="GetAllLinks" source="C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\TestCases\GetAllLinks.robot">
+<test id="s1-s1-t1" name="AllPageLinks" line="10">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-07-09T21:07:16.470270" level="INFO">Opening browser 'chrome' to base url 'https://shopmastercardmerchb2c.lapine.dev/QA/'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-07-09T21:07:16.469787" elapsed="8.618659"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-07-09T21:07:25.089578" elapsed="0.102431"/>
+</kw>
+<kw name="Get Element Count" owner="SeleniumLibrary">
+<msg time="2026-07-09T21:07:25.307491" level="INFO">${AllLinksCount} = 63</msg>
+<var>${AllLinksCount}</var>
+<arg>xpath://a</arg>
+<doc>Returns the number of elements matching ``locator``.</doc>
+<status status="PASS" start="2026-07-09T21:07:25.192422" elapsed="0.115325"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${AllLinksCount}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-07-09T21:07:25.308643" elapsed="0.001358"/>
+</kw>
+<kw name="Create List" owner="BuiltIn">
+<msg time="2026-07-09T21:07:25.317276" level="INFO">@{links} = [ ]</msg>
+<var>@{links}</var>
+<doc>Returns a list containing given items.</doc>
+<status status="PASS" start="2026-07-09T21:07:25.310779" elapsed="0.006745"/>
+</kw>
+<for flavor="IN RANGE">
+<iter>
+<kw name="Get Text" owner="SeleniumLibrary">
+<msg time="2026-07-09T21:07:26.222052" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2026-07-09T21:07:26.222443" level="FAIL">Element with locator 'xpath:(//a)[0]' not found.</msg>
+<var>${LinkText}</var>
+<arg>xpath:(//a)[${i}]</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="FAIL" start="2026-07-09T21:07:25.319169" elapsed="0.917584">Element with locator 'xpath:(//a)[0]' not found.</status>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${LinkText}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2026-07-09T21:07:26.237246" elapsed="0.000086"/>
+</kw>
+<var name="${i}">0</var>
+<status status="FAIL" start="2026-07-09T21:07:25.318640" elapsed="0.918854">Element with locator 'xpath:(//a)[0]' not found.</status>
+</iter>
+<var>${i}</var>
+<value>1</value>
+<value>@{links}</value>
+<status status="FAIL" start="2026-07-09T21:07:25.317811" elapsed="0.920135">Element with locator 'xpath:(//a)[0]' not found.</status>
+</for>
+<for flavor="IN RANGE">
+<iter>
+<kw name="Get Element Attribute" owner="SeleniumLibrary">
+<var>${Link}</var>
+<arg>xpath:(//a)[${i}]</arg>
+<arg>href</arg>
+<doc>Returns the value of ``attribute`` from the element ``locator``.</doc>
+<status status="NOT RUN" start="2026-07-09T21:07:26.238647" elapsed="0.000066"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${i}. ${Link}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2026-07-09T21:07:26.238919" elapsed="0.000057"/>
+</kw>
+<var name="${i}"/>
+<status status="NOT RUN" start="2026-07-09T21:07:26.238417" elapsed="0.000655"/>
+</iter>
+<var>${i}</var>
+<value>1</value>
+<value>${AllLinksCount + 1}</value>
+<status status="NOT RUN" start="2026-07-09T21:07:26.238220" elapsed="0.000946"/>
+</for>
+<status status="FAIL" start="2026-07-09T21:07:16.467896" elapsed="9.771818">Element with locator 'xpath:(//a)[0]' not found.</status>
+</test>
+<status status="FAIL" start="2026-07-09T21:07:15.854696" elapsed="10.386549"/>
+</suite>
+<status status="FAIL" start="2026-07-09T21:07:15.768061" elapsed="10.475938"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Suites" id="s1" pass="0" fail="1" skip="0">Suites</stat>
+<stat name="GetAllLinks" id="s1-s1" pass="0" fail="1" skip="0">Suites.GetAllLinks</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

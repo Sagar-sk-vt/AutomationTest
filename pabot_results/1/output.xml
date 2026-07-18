@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.13.14 on win32)" generated="2026-07-09T16:38:38.202105" rpa="false" schemaversion="5">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="DB" source="C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\TestCases\DB.robot">
+<kw name="Connect To Database" owner="DatabaseLibrary" type="SETUP">
+<msg time="2026-07-09T16:38:38.337359" level="INFO">Looking for configuration file: 'resources\db.cfg'</msg>
+<msg time="2026-07-09T16:38:38.337540" level="INFO">Configuration file doesn't exist</msg>
+<msg time="2026-07-09T16:38:38.368662" level="INFO">Connect to DB using : pymysql.connect(db='mydb', user=***, passwd=***, port=3306, charset='utf8mb4')</msg>
+<msg time="2026-07-09T16:38:42.506846" level="FAIL">OperationalError: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")</msg>
+<arg>pymysql</arg>
+<arg>${DBName}</arg>
+<arg>${DBUser}</arg>
+<arg>${DBPass}</arg>
+<doc>Creates a database connection using the DB API 2.0 ``db_module`` and the parameters provided.
+Along with listed commonly used arguments (`db_name`, `db_host` etc.)
+you can set any other DB module specific parameters as key/value pairs.</doc>
+<status status="FAIL" start="2026-07-09T16:38:38.336800" elapsed="4.175687">OperationalError: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")</status>
+</kw>
+<test id="s1-s1-t1" name="Create Table" line="14">
+<status status="FAIL" start="2026-07-09T16:38:42.512931" elapsed="0.000830">Parent suite setup failed:
+OperationalError: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")</status>
+</test>
+<kw name="Disconnect From Database" owner="DatabaseLibrary" type="TEARDOWN">
+<msg time="2026-07-09T16:38:42.514893" level="INFO">No open database connection to close</msg>
+<doc>Disconnects from the database.</doc>
+<status status="PASS" start="2026-07-09T16:38:42.514595" elapsed="0.002054"/>
+</kw>
+<status status="FAIL" start="2026-07-09T16:38:38.253839" elapsed="4.262922">Suite setup failed:
+OperationalError: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")</status>
+</suite>
+<status status="FAIL" start="2026-07-09T16:38:38.204780" elapsed="4.313161"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Suites" id="s1" pass="0" fail="1" skip="0">Suites</stat>
+<stat name="DB" id="s1-s1" pass="0" fail="1" skip="0">Suites.DB</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

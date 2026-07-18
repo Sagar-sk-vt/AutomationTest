@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.13.14 on win32)" generated="2026-07-09T21:07:12.006208" rpa="false" schemaversion="5">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="DataDrivenTesting 1" source="C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\TestCases\DataDrivenTesting_1.robot">
+<kw name="Open My Browser" type="SETUP">
+<msg time="2026-07-09T21:07:12.660687" level="FAIL">No keyword with name 'Open My Browser' found. Did you mean:
+    SeleniumLibrary.Open Browser</msg>
+<status status="FAIL" start="2026-07-09T21:07:12.660476" elapsed="0.000386">No keyword with name 'Open My Browser' found. Did you mean:
+    SeleniumLibrary.Open Browser</status>
+</kw>
+<test id="s1-s1-t1" name="Invalid User and Password" line="12">
+<status status="FAIL" start="2026-07-09T21:07:12.661238" elapsed="0.000978">Parent suite setup failed:
+No keyword with name 'Open My Browser' found. Did you mean:
+    SeleniumLibrary.Open Browser</status>
+</test>
+<test id="s1-s1-t2" name="Invalid User and correct Password" line="13">
+<status status="FAIL" start="2026-07-09T21:07:12.662941" elapsed="0.001229">Parent suite setup failed:
+No keyword with name 'Open My Browser' found. Did you mean:
+    SeleniumLibrary.Open Browser</status>
+</test>
+<test id="s1-s1-t3" name="Correct User and invalid Password" line="14">
+<status status="FAIL" start="2026-07-09T21:07:12.664724" elapsed="0.000434">Parent suite setup failed:
+No keyword with name 'Open My Browser' found. Did you mean:
+    SeleniumLibrary.Open Browser</status>
+</test>
+<kw name="Closed Browser" type="TEARDOWN">
+<msg time="2026-07-09T21:07:12.668896" level="FAIL">No keyword with name 'Closed Browser' found. Did you mean:
+    SeleniumLibrary.Close Browser</msg>
+<status status="FAIL" start="2026-07-09T21:07:12.668779" elapsed="0.000201">No keyword with name 'Closed Browser' found. Did you mean:
+    SeleniumLibrary.Close Browser</status>
+</kw>
+<status status="FAIL" start="2026-07-09T21:07:12.081026" elapsed="0.588092">Suite setup failed:
+No keyword with name 'Open My Browser' found. Did you mean:
+    SeleniumLibrary.Open Browser
+
+Also suite teardown failed:
+No keyword with name 'Closed Browser' found. Did you mean:
+    SeleniumLibrary.Close Browser</status>
+</suite>
+<status status="FAIL" start="2026-07-09T21:07:12.008952" elapsed="0.661474"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="3" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Suites" id="s1" pass="0" fail="3" skip="0">Suites</stat>
+<stat name="DataDrivenTesting 1" id="s1-s1" pass="0" fail="3" skip="0">Suites.DataDrivenTesting 1</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2026-07-09T21:07:12.654441" level="ERROR">Error in file 'C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\TestCases\DataDrivenTesting_1.robot' on line 3: Resource file '..\Resources\Login_Resources.robot' does not exist.</msg>
+</errors>
+</robot>

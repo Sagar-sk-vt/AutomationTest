@@ -1,0 +1,36 @@
+2026-07-09 21:07:13.876804 ==============================================================================
+2026-07-09 21:07:13.887553 Suites
+2026-07-09 21:07:13.887687 ==============================================================================
+2026-07-09 21:07:15.277005 Suites.DataDrivenTesting Excel
+2026-07-09 21:07:15.277005 [ ERROR ] Error in file 'C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\TestCases\DataDrivenTesting_Excel.robot' on line 3: Resource file '..\Resources\Login_Resources.robot' does not exist.
+2026-07-09 21:07:15.324856 ==============================================================================
+2026-07-09 21:07:15.324856 [ ERROR ] Error in file 'C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\TestCases\DataDrivenTesting_Excel.robot' on line 4: Importing library 'DataDriver' failed: ModuleNotFoundError: No module named 'DataDriver'
+2026-07-09 21:07:15.325598 InvalidLoginTest ${username} and ${password}                          | FAIL |
+2026-07-09 21:07:15.325598 Traceback (most recent call last):
+2026-07-09 21:07:15.331023 Parent suite setup failed:
+2026-07-09 21:07:15.331023   None
+2026-07-09 21:07:15.331058 No keyword with name 'Open My Browser' found. Did you mean:
+2026-07-09 21:07:15.331058 PYTHONPATH:
+2026-07-09 21:07:15.331090     SeleniumLibrary.Open Browser
+2026-07-09 21:07:15.331090   C:\Users\SagarKhobragade\AppData\Local\Programs\Python\Python313\Scripts\robot.exe
+2026-07-09 21:07:15.331119 ------------------------------------------------------------------------------
+2026-07-09 21:07:15.331119   C:\Users\SagarKhobragade\AppData\Local\Programs\Python\Python313\python313.zip
+2026-07-09 21:07:15.331147 Suites.DataDrivenTesting Excel                                        | FAIL |
+2026-07-09 21:07:15.331147   C:\Users\SagarKhobragade\AppData\Local\Programs\Python\Python313\DLLs
+2026-07-09 21:07:15.335090 Suite setup failed:
+2026-07-09 21:07:15.335090   C:\Users\SagarKhobragade\AppData\Local\Programs\Python\Python313\Lib
+2026-07-09 21:07:15.335129 No keyword with name 'Open My Browser' found. Did you mean:
+2026-07-09 21:07:15.335129   C:\Users\SagarKhobragade\AppData\Local\Programs\Python\Python313
+2026-07-09 21:07:15.335159     SeleniumLibrary.Open Browser
+2026-07-09 21:07:15.335159   C:\Users\SagarKhobragade\AppData\Local\Programs\Python\Python313\Lib\site-packages
+2026-07-09 21:07:15.335190 
+2026-07-09 21:07:15.335222 Also suite teardown failed:
+2026-07-09 21:07:15.335250 No keyword with name 'Closed Browser' found. Did you mean:
+2026-07-09 21:07:15.335275     SeleniumLibrary.Close Browser
+2026-07-09 21:07:15.335301 
+2026-07-09 21:07:15.335327 1 test, 0 passed, 1 failed
+2026-07-09 21:07:15.335353 ==============================================================================
+2026-07-09 21:07:15.335380 Suites                                                                | FAIL |
+2026-07-09 21:07:15.335873 1 test, 0 passed, 1 failed
+2026-07-09 21:07:15.336819 ==============================================================================
+2026-07-09 21:07:15.336859 Output:  C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\Results\pabot_results\5\output.xml

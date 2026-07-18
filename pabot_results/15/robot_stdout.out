@@ -1,0 +1,29 @@
+==============================================================================
+Suites
+==============================================================================
+Suites.SetUpAndTearDown
+==============================================================================
+opening browser
+TC1                                                                   login into application
+This is recharge test
+logoff from application
+| PASS |
+------------------------------------------------------------------------------
+TC2                                                                   login into application
+This is postpade test
+logoff from application
+| PASS |
+------------------------------------------------------------------------------
+TC3                                                                   login into application
+This is Search test
+logoff from application
+| PASS |
+------------------------------------------------------------------------------
+closing browser
+Suites.SetUpAndTearDown                                               | PASS |
+3 tests, 3 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+3 tests, 3 passed, 0 failed
+==============================================================================
+Output:  C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\pabot_results\15\output.xml

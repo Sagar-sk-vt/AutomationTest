@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.13.14 on win32)" generated="2026-07-09T21:07:12.006530" rpa="false" schemaversion="5">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="DataDrivenTesting 2" source="C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\TestCases\DataDrivenTesting_2.robot">
+<kw name="Open My Browser" type="SETUP">
+<msg time="2026-07-09T21:07:12.626547" level="FAIL">No keyword with name 'Open My Browser' found. Did you mean:
+    SeleniumLibrary.Open Browser</msg>
+<status status="FAIL" start="2026-07-09T21:07:12.626365" elapsed="0.000316">No keyword with name 'Open My Browser' found. Did you mean:
+    SeleniumLibrary.Open Browser</status>
+</kw>
+<test id="s1-s1-t1" name="Blank user name" line="16">
+<status status="FAIL" start="2026-07-09T21:07:12.626963" elapsed="0.000686">Parent suite setup failed:
+No keyword with name 'Open My Browser' found. Did you mean:
+    SeleniumLibrary.Open Browser</status>
+</test>
+<kw name="Closed Browser" type="TEARDOWN">
+<msg time="2026-07-09T21:07:12.630004" level="FAIL">No keyword with name 'Closed Browser' found. Did you mean:
+    SeleniumLibrary.Close Browser</msg>
+<status status="FAIL" start="2026-07-09T21:07:12.629832" elapsed="0.000314">No keyword with name 'Closed Browser' found. Did you mean:
+    SeleniumLibrary.Close Browser</status>
+</kw>
+<status status="FAIL" start="2026-07-09T21:07:12.083606" elapsed="0.546749">Suite setup failed:
+No keyword with name 'Open My Browser' found. Did you mean:
+    SeleniumLibrary.Open Browser
+
+Also suite teardown failed:
+No keyword with name 'Closed Browser' found. Did you mean:
+    SeleniumLibrary.Close Browser</status>
+</suite>
+<status status="FAIL" start="2026-07-09T21:07:12.009936" elapsed="0.621254"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Suites" id="s1" pass="0" fail="1" skip="0">Suites</stat>
+<stat name="DataDrivenTesting 2" id="s1-s1" pass="0" fail="1" skip="0">Suites.DataDrivenTesting 2</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2026-07-09T21:07:12.621736" level="ERROR">Error in file 'C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\TestCases\DataDrivenTesting_2.robot' on line 3: Resource file '..\Resources\Login_Resources.robot' does not exist.</msg>
+</errors>
+</robot>

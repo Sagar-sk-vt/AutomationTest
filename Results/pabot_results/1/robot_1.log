@@ -1,0 +1,32 @@
+2026-07-09 21:07:12.093977 ==============================================================================
+2026-07-09 21:07:12.115610 Suites
+2026-07-09 21:07:12.115646 ==============================================================================
+2026-07-09 21:07:12.115667 Suites.DB
+2026-07-09 21:07:12.115667 [ ERROR ] Error in file 'C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\TestCases\DB.robot' on line 2: Importing library 'DatabaseLibrary' failed: ModuleNotFoundError: No module named 'DatabaseLibrary'
+2026-07-09 21:07:12.128878 ==============================================================================
+2026-07-09 21:07:12.128878 Traceback (most recent call last):
+2026-07-09 21:07:12.128973 Create Table                                                          | FAIL |
+2026-07-09 21:07:12.128973   None
+2026-07-09 21:07:12.131082 Parent suite setup failed:
+2026-07-09 21:07:12.131082 PYTHONPATH:
+2026-07-09 21:07:12.131324 No keyword with name 'Connect To Database' found.
+2026-07-09 21:07:12.131324   C:\Users\SagarKhobragade\AppData\Local\Programs\Python\Python313\Scripts\robot.exe
+2026-07-09 21:07:12.131367 ------------------------------------------------------------------------------
+2026-07-09 21:07:12.131367   C:\Users\SagarKhobragade\AppData\Local\Programs\Python\Python313\python313.zip
+2026-07-09 21:07:12.131397 Suites.DB                                                             | FAIL |
+2026-07-09 21:07:12.131397   C:\Users\SagarKhobragade\AppData\Local\Programs\Python\Python313\DLLs
+2026-07-09 21:07:12.132171 Suite setup failed:
+2026-07-09 21:07:12.132171   C:\Users\SagarKhobragade\AppData\Local\Programs\Python\Python313\Lib
+2026-07-09 21:07:12.132206 No keyword with name 'Connect To Database' found.
+2026-07-09 21:07:12.132206   C:\Users\SagarKhobragade\AppData\Local\Programs\Python\Python313
+2026-07-09 21:07:12.132236 
+2026-07-09 21:07:12.132236   C:\Users\SagarKhobragade\AppData\Local\Programs\Python\Python313\Lib\site-packages
+2026-07-09 21:07:12.132266 Also suite teardown failed:
+2026-07-09 21:07:12.132289 No keyword with name 'Disconnect From Database' found.
+2026-07-09 21:07:12.132309 
+2026-07-09 21:07:12.132328 1 test, 0 passed, 1 failed
+2026-07-09 21:07:12.132344 ==============================================================================
+2026-07-09 21:07:12.132360 Suites                                                                | FAIL |
+2026-07-09 21:07:12.132445 1 test, 0 passed, 1 failed
+2026-07-09 21:07:12.132471 ==============================================================================
+2026-07-09 21:07:12.132533 Output:  C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\Results\pabot_results\1\output.xml

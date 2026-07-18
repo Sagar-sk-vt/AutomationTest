@@ -1,0 +1,21 @@
+==============================================================================
+Suites
+==============================================================================
+Suites.MultipleBrowser
+==============================================================================
+Alert Test                                                            Mastercard - MastercardB2C
+UAT Issue Tracker - MastercardB2C
+| PASS |
+------------------------------------------------------------------------------
+Navigation Test                                                       https://shopmastercardmerchb2c.lapine.dev/QA/
+https://shopmastercardmerchb2c.lapine.dev/QA/index.php?route=issue_tracker/issue_tracker&page=common/home
+https://shopmastercardmerchb2c.lapine.dev/QA/
+| PASS |
+------------------------------------------------------------------------------
+Suites.MultipleBrowser                                                | PASS |
+2 tests, 2 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+2 tests, 2 passed, 0 failed
+==============================================================================
+Output:  C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\pabot_results\11\output.xml

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.13.14 on win32)" generated="2026-07-13T16:24:00.414929" rpa="false" schemaversion="5">
+<suite id="s1" name="Xml" source="C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\TestCasesAPI\Xml.robot">
+<test id="s1-t1" name="Testcase1" line="11">
+<kw name="Create Session" owner="RequestsLibrary">
+<msg time="2026-07-13T16:24:00.643727" level="INFO">Creating Session using : alias=mysession, url=http://thomas-bayer.com, headers={},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<arg>mysession</arg>
+<arg>${base_URL}</arg>
+<doc>Create Session: create a HTTP session to a server</doc>
+<status status="PASS" start="2026-07-13T16:24:00.643039" elapsed="0.001307"/>
+</kw>
+<kw name="Get Request" owner="RequestsLibrary">
+<msg time="2026-07-13T16:24:00.645414" level="WARN">Keyword 'RequestsLibrary.Get Request' is deprecated. Please use `GET On Session` instead.</msg>
+<msg time="2026-07-13T16:24:43.287585" level="WARN">Retrying (RetryAdapter(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(&lt;HTTPConnection(host='thomas-bayer.com', port=80) at 0x271507fc2f0&gt;, 'Connection to thomas-bayer.com timed out. (connect timeout=None)')': /sqlrest/CUSTOMER/15</msg>
+<msg time="2026-07-13T16:25:25.559053" level="WARN">Retrying (RetryAdapter(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(&lt;HTTPConnection(host='thomas-bayer.com', port=80) at 0x271507f9590&gt;, 'Connection to thomas-bayer.com timed out. (connect timeout=None)')': /sqlrest/CUSTOMER/15</msg>
+<msg time="2026-07-13T16:26:08.038434" level="WARN">Retrying (RetryAdapter(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(&lt;HTTPConnection(host='thomas-bayer.com', port=80) at 0x271507f9810&gt;, 'Connection to thomas-bayer.com timed out. (connect timeout=None)')': /sqlrest/CUSTOMER/15</msg>
+<msg time="2026-07-13T16:26:50.129333" level="FAIL">ConnectTimeout: HTTPConnectionPool(host='thomas-bayer.com', port=80): Max retries exceeded with url: /sqlrest/CUSTOMER/15 (Caused by ConnectTimeoutError(&lt;HTTPConnection(host='thomas-bayer.com', port=80) at 0x271508009d0&gt;, 'Connection to thomas-bayer.com timed out. (connect timeout=None)'))</msg>
+<var>${response}</var>
+<arg>mysession</arg>
+<arg>/sqlrest/CUSTOMER/15</arg>
+<doc>*DEPRECATED* Please use `GET On Session` instead.</doc>
+<status status="FAIL" start="2026-07-13T16:24:00.645376" elapsed="169.808453">ConnectTimeout: HTTPConnectionPool(host='thomas-bayer.com', port=80): Max retries exceeded with url: /sqlrest/CUSTOMER/15 (Caused by ConnectTimeoutError(&lt;HTTPConnection(host='thomas-bayer.com', port=80) at 0x271508009d0&gt;, 'Connection to thomas-bayer.com timed out. (connect timeout=None)'))</status>
+</kw>
+<kw name="Convert To String" owner="BuiltIn">
+<var>${xml_string}</var>
+<arg>${response.content}</arg>
+<doc>Converts the given item to a Unicode string.</doc>
+<status status="NOT RUN" start="2026-07-13T16:26:50.454835" elapsed="0.000084"/>
+</kw>
+<kw name="Parse Xml" owner="XML">
+<var>${xml_obj}</var>
+<arg>${xml_string}</arg>
+<doc>Parses the given XML file or string into an element structure.</doc>
+<status status="NOT RUN" start="2026-07-13T16:26:50.455480" elapsed="0.000070"/>
+</kw>
+<kw name="Element Text Should Be" owner="XML">
+<arg>${xml_obj}</arg>
+<arg>15</arg>
+<arg>.//ID</arg>
+<doc>Verifies that the text of the specified element is ``expected``.</doc>
+<status status="NOT RUN" start="2026-07-13T16:26:50.455975" elapsed="0.000047"/>
+</kw>
+<status status="FAIL" start="2026-07-13T16:24:00.642165" elapsed="169.814539">ConnectTimeout: HTTPConnectionPool(host='thomas-bayer.com', port=80): Max retries exceeded with url: /sqlrest/CUSTOMER/15 (Caused by ConnectTimeoutError(&lt;HTTPConnection(host='thomas-bayer.com', port=80) at 0x271508009d0&gt;, 'Connection to thomas-bayer.com timed out. (connect timeout=None)'))</status>
+</test>
+<status status="FAIL" start="2026-07-13T16:24:00.416625" elapsed="170.041673"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Xml" id="s1" pass="0" fail="1" skip="0">Xml</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2026-07-13T16:24:00.645414" level="WARN">Keyword 'RequestsLibrary.Get Request' is deprecated. Please use `GET On Session` instead.</msg>
+<msg time="2026-07-13T16:24:43.287585" level="WARN">Retrying (RetryAdapter(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(&lt;HTTPConnection(host='thomas-bayer.com', port=80) at 0x271507fc2f0&gt;, 'Connection to thomas-bayer.com timed out. (connect timeout=None)')': /sqlrest/CUSTOMER/15</msg>
+<msg time="2026-07-13T16:25:25.559053" level="WARN">Retrying (RetryAdapter(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(&lt;HTTPConnection(host='thomas-bayer.com', port=80) at 0x271507f9590&gt;, 'Connection to thomas-bayer.com timed out. (connect timeout=None)')': /sqlrest/CUSTOMER/15</msg>
+<msg time="2026-07-13T16:26:08.038434" level="WARN">Retrying (RetryAdapter(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(&lt;HTTPConnection(host='thomas-bayer.com', port=80) at 0x271507f9810&gt;, 'Connection to thomas-bayer.com timed out. (connect timeout=None)')': /sqlrest/CUSTOMER/15</msg>
+</errors>
+</robot>

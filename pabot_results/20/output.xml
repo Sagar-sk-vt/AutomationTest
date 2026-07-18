@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.13.14 on win32)" generated="2026-07-09T16:39:50.459554" rpa="false" schemaversion="5">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="UserKeywords" source="C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\TestCases\UserKeywords.robot">
+<test id="s1-s1-t1" name="Alert Test" line="10">
+<kw name="launchBrowser">
+<msg time="2026-07-09T16:39:51.065696" level="FAIL">No keyword with name 'launchBrowser' found.</msg>
+<var>${pageTitle}</var>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<status status="FAIL" start="2026-07-09T16:39:51.065480" elapsed="0.000406">No keyword with name 'launchBrowser' found.</status>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${pageTitle}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2026-07-09T16:39:51.066699" elapsed="0.000134"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<arg>${pageTitle}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" start="2026-07-09T16:39:51.067140" elapsed="0.000070"/>
+</kw>
+<kw name="Close All Browsers" owner="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="NOT RUN" start="2026-07-09T16:39:51.067403" elapsed="0.000052"/>
+</kw>
+<status status="FAIL" start="2026-07-09T16:39:51.059604" elapsed="0.008230">No keyword with name 'launchBrowser' found.</status>
+</test>
+<status status="FAIL" start="2026-07-09T16:39:50.516994" elapsed="0.551838"/>
+</suite>
+<status status="FAIL" start="2026-07-09T16:39:50.461815" elapsed="0.608216"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Suites" id="s1" pass="0" fail="1" skip="0">Suites</stat>
+<stat name="UserKeywords" id="s1-s1" pass="0" fail="1" skip="0">Suites.UserKeywords</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2026-07-09T16:39:51.058633" level="ERROR">Error in file 'C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\TestCases\UserKeywords.robot' on line 3: Resource file '..\Resources\Resources.robot' does not exist.</msg>
+</errors>
+</robot>

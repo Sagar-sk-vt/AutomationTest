@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.13.14 on win32)" generated="2026-07-09T16:39:14.785435" rpa="false" schemaversion="5">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Radiobutton" source="C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\TestCases\Radiobutton.robot">
+<test id="s1-s1-t1" name="Dropdown operation" line="9">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-07-09T16:39:15.591235" level="INFO">Opening browser 'chrome' to base url 'https://shopmastercardmerchb2c.lapine.dev/QA/index.php?route=issue_tracker/issue_tracker&amp;page=common/home'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-07-09T16:39:15.590716" elapsed="3.133383"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-07-09T16:39:18.724926" elapsed="6.785214"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-07-09T16:39:25.516974" level="INFO">Clicking element 'class:multiselect-selected-text'.</msg>
+<msg time="2026-07-09T16:39:28.209129" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2026-07-09T16:39:28.211366" level="FAIL">ElementClickInterceptedException: Message: element click intercepted: Element &lt;span class="multiselect-selected-text"&gt;...&lt;/span&gt; is not clickable at point (747, 665). Other element would receive the click: &lt;div class="cookies-eu-banner"&gt;...&lt;/div&gt;
+  (Session info: chrome=150.0.7871.47); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7aff2a865+152a5]
+	chromedriver!GetHandleVerifier [0x7ff7aff2a8c0+15300]
+	chromedriver!(No symbol) [0x7ff7afa8596d]
+	chromedriver!(No symbol) [0x7ff7afae8225]
+	chromedriver!(No symbol) [0x7ff7afae5e43]
+	chromedriver!(No symbol) [0x7ff7afae3197]
+	chromedriver!(No symbol) [0x7ff7afae2060]
+	chromedriver!(No symbol) [0x7ff7afad4a58]
+	chromedriver!(No symbol) [0x7ff7afb08e6a]
+	chromedriver!(No symbol) [0x7ff7afad42d6]
+	chromedriver!(No symbol) [0x7ff7afb2dcf4]
+	chromedriver!(No symbol) [0x7ff7afad2b3c]
+	chromedriver!(No symbol) [0x7ff7afad3a53]
+	chromedriver!GetHandleVerifier [0x7ff7b050d3a1+5f7de1]
+	chromedriver!GetHandleVerifier [0x7ff7b0507a3b+5f247b]
+	chromedriver!GetHandleVerifier [0x7ff7b052bca5+6166e5]
+	chromedriver!GetHandleVerifier [0x7ff7aff472ae+31cee]
+	chromedriver!GetHandleVerifier [0x7ff7aff4fe3c+3a87c]
+	chromedriver!GetHandleVerifier [0x7ff7aff34404+1ee44]
+	chromedriver!GetHandleVerifier [0x7ff7aff34594+1efd4]
+	chromedriver!GetHandleVerifier [0x7ff7aff175c7+2007]
+	KERNEL32!BaseThreadInitThunk [0x7ff8eadfe957+17]
+	ntdll!RtlUserThreadStart [0x7ff8ec967c1c+2c]
+</msg>
+<arg>class:multiselect-selected-text</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="FAIL" start="2026-07-09T16:39:25.511861" elapsed="2.745663">ElementClickInterceptedException: Message: element click intercepted: Element &lt;span class="multiselect-selected-text"&gt;...&lt;/span&gt; is not clickable at point (747, 665). Other element would receive the click: &lt;div class="cookies-eu-banner"&gt;...&lt;/div&gt;
+  (Session info: chrome=150.0.7871.47); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7aff2a865+152a5]
+	chromedriver!GetHandleVerifier [0x7ff7aff2a8c0+15300]
+	chromedriver!(No symbol) [0x7ff7afa8596d]
+	chromedriver!(No symbol) [0x7ff7afae8225]
+	chromedriver!(No symbol) [0x7ff7afae5e43]
+	chromedriver!(No symbol) [0x7ff7afae3197]
+	chromedriver!(No symbol) [0x7ff7afae2060]
+	chromedriver!(No symbol) [0x7ff7afad4a58]
+	chromedriver!(No symbol) [0x7ff7afb08e6a]
+	chromedriver!(No symbol) [0x7ff7afad42d6]
+	chromedriver!(No symbol) [0x7ff7afb2dcf4]
+	chromedriver!(No symbol) [0x7ff7afad2b3c]
+	chromedriver!(No symbol) [0x7ff7afad3a53]
+	chromedriver!GetHandleVerifier [0x7ff7b050d3a1+5f7de1]
+	chromedriver!GetHandleVerifier [0x7ff7b0507a3b+5f247b]
+	chromedriver!GetHandleVerifier [0x7ff7b052bca5+6166e5]
+	chromedriver!GetHandleVerifier [0x7ff7aff472ae+31cee]
+	chromedriver!GetHandleVerifier [0x7ff7aff4fe3c+3a87c]
+	chromedriver!GetHandleVerifier [0x7ff7aff34404+1ee44]
+	chromedriver!GetHandleVerifier [0x7ff7aff34594+1efd4]
+	chromedriver!GetHandleVerifier [0x7ff7aff175c7+2007]
+	KERNEL32!BaseThreadInitThunk [0x7ff8eadfe957+17]
+	ntdll!RtlUserThreadStart [0x7ff8ec967c1c+2c]
+</status>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2026-07-09T16:39:28.258653" elapsed="0.000116"/>
+</kw>
+<kw name="Select Radio Button" owner="SeleniumLibrary">
+<arg>Priority</arg>
+<arg>Fix - Priority 1</arg>
+<doc>Sets the radio button group ``group_name`` to ``value``.</doc>
+<status status="NOT RUN" start="2026-07-09T16:39:28.259224" elapsed="0.000079"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2026-07-09T16:39:28.259523" elapsed="0.000053"/>
+</kw>
+<status status="FAIL" start="2026-07-09T16:39:15.589261" elapsed="12.671364">ElementClickInterceptedException: Message: element click intercepted: Element &lt;span class="multiselect-selected-text"&gt;...&lt;/span&gt; is not clickable at point (747, 665). Other element would receive the click: &lt;div class="cookies-eu-banner"&gt;...&lt;/div&gt;
+  (Session info: chrome=150.0.7871.47); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7aff2a865+152a5]
+	chromedriver!GetHandleVerifier [0x7ff7aff2a8c0+15300]
+	chromedriver!(No symbol) [0x7ff7afa8596d]
+	chromedriver!(No symbol) [0x7ff7afae8225]
+	chromedriver!(No symbol) [0x7ff7afae5e43]
+	chromedriver!(No symbol) [0x7ff7afae3197]
+	chromedriver!(No symbol) [0x7ff7afae2060]
+	chromedriver!(No symbol) [0x7ff7afad4a58]
+	chromedriver!(No symbol) [0x7ff7afb08e6a]
+	chromedriver!(No symbol) [0x7ff7afad42d6]
+	chromedriver!(No symbol) [0x7ff7afb2dcf4]
+	chromedriver!(No symbol) [0x7ff7afad2b3c]
+	chromedriver!(No symbol) [0x7ff7afad3a53]
+	chromedriver!GetHandleVerifier [0x7ff7b050d3a1+5f7de1]
+	chromedriver!GetHandleVerifier [0x7ff7b0507a3b+5f247b]
+	chromedriver!GetHandleVerifier [0x7ff7b052bca5+6166e5]
+	chromedriver!GetHandleVerifier [0x7ff7aff472ae+31cee]
+	chromedriver!GetHandleVerifier [0x7ff7aff4fe3c+3a87c]
+	chromedriver!GetHandleVerifier [0x7ff7aff34404+1ee44]
+	chromedriver!GetHandleVerifier [0x7ff7aff34594+1efd4]
+	chromedriver!GetHandleVerifier [0x7ff7aff175c7+2007]
+	KERNEL32!BaseThreadInitThunk [0x7ff8eadfe957+17]
+	ntdll!RtlUserThreadStart [0x7ff8ec967c1c+2c]
+</status>
+</test>
+<status status="FAIL" start="2026-07-09T16:39:14.864879" elapsed="13.404028"/>
+</suite>
+<status status="FAIL" start="2026-07-09T16:39:14.789431" elapsed="13.482440"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Suites" id="s1" pass="0" fail="1" skip="0">Suites</stat>
+<stat name="Radiobutton" id="s1-s1" pass="0" fail="1" skip="0">Suites.Radiobutton</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

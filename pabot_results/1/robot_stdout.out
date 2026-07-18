@@ -1,0 +1,19 @@
+==============================================================================
+Suites
+==============================================================================
+Suites.DB
+==============================================================================
+Create Table                                                          | FAIL |
+Parent suite setup failed:
+OperationalError: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+------------------------------------------------------------------------------
+Suites.DB                                                             | FAIL |
+Suite setup failed:
+OperationalError: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+
+1 test, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\pabot_results\1\output.xml

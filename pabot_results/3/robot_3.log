@@ -1,0 +1,26 @@
+2026-07-09 16:38:38.243869 ==============================================================================
+2026-07-09 16:38:38.257415 Suites
+2026-07-09 16:38:38.257471 ==============================================================================
+2026-07-09 16:38:38.636824 Suites.DataDrivenTesting 2
+2026-07-09 16:38:38.636824 [ ERROR ] Error in file 'C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\TestCases\DataDrivenTesting_2.robot' on line 3: Resource file '..\Resources\Login_Resources.robot' does not exist.
+2026-07-09 16:38:38.674926 ==============================================================================
+2026-07-09 16:38:38.674974 Blank user name                                                       | FAIL |
+2026-07-09 16:38:38.677542 Parent suite setup failed:
+2026-07-09 16:38:38.677592 No keyword with name 'Open My Browser' found. Did you mean:
+2026-07-09 16:38:38.677638     SeleniumLibrary.Open Browser
+2026-07-09 16:38:38.677674 ------------------------------------------------------------------------------
+2026-07-09 16:38:38.677699 Suites.DataDrivenTesting 2                                            | FAIL |
+2026-07-09 16:38:38.680064 Suite setup failed:
+2026-07-09 16:38:38.680087 No keyword with name 'Open My Browser' found. Did you mean:
+2026-07-09 16:38:38.680099     SeleniumLibrary.Open Browser
+2026-07-09 16:38:38.680109 
+2026-07-09 16:38:38.680120 Also suite teardown failed:
+2026-07-09 16:38:38.680129 No keyword with name 'Closed Browser' found. Did you mean:
+2026-07-09 16:38:38.680139     SeleniumLibrary.Close Browser
+2026-07-09 16:38:38.680149 
+2026-07-09 16:38:38.680158 1 test, 0 passed, 1 failed
+2026-07-09 16:38:38.680167 ==============================================================================
+2026-07-09 16:38:38.680177 Suites                                                                | FAIL |
+2026-07-09 16:38:38.680273 1 test, 0 passed, 1 failed
+2026-07-09 16:38:38.680318 ==============================================================================
+2026-07-09 16:38:38.680334 Output:  C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\pabot_results\3\output.xml

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.13.14 on win32)" generated="2026-07-09T16:38:43.319299" rpa="false" schemaversion="5">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Inputbox" source="C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\TestCases\inputbox.robot">
+<test id="s1-s1-t1" name="InputBoxTest" line="10">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-07-09T16:38:43.776286" level="INFO">Opening browser 'chrome' to base url 'https://shopnyuint.lapine.dev/QA/dmtpv1a/'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-07-09T16:38:43.776018" elapsed="17.022774"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-07-09T16:39:00.799610" elapsed="0.104123"/>
+</kw>
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<msg time="2026-07-09T16:39:00.967435" level="INFO">Page title is 'Administration - NYU Langone Health'.</msg>
+<arg>Administration - NYU Langone Health</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="PASS" start="2026-07-09T16:39:00.904381" elapsed="0.063495"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${email_txt}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-07-09T16:39:00.968792" elapsed="0.001391"/>
+</kw>
+<kw name="Element Should Be Visible" owner="SeleniumLibrary">
+<msg time="2026-07-09T16:39:01.116553" level="INFO">Element 'id:input-username' is displayed.</msg>
+<arg>${email_txt}</arg>
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<status status="PASS" start="2026-07-09T16:39:00.970638" elapsed="0.146196"/>
+</kw>
+<kw name="Element Should Be Enabled" owner="SeleniumLibrary">
+<arg>${email_txt}</arg>
+<doc>Verifies that element identified by ``locator`` is enabled.</doc>
+<status status="PASS" start="2026-07-09T16:39:01.117312" elapsed="0.086851"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-07-09T16:39:01.206169" level="INFO">Typing text 'sagar' into text field 'id:input-username'.</msg>
+<arg>${email_txt}</arg>
+<arg>sagar</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-07-09T16:39:01.204771" elapsed="0.366123"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-07-09T16:39:06.577971" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-07-09T16:39:01.571334" elapsed="5.007145"/>
+</kw>
+<kw name="Clear Element Text" owner="SeleniumLibrary">
+<arg>${email_txt}</arg>
+<doc>Clears the value of the text-input-element identified by ``locator``.</doc>
+<status status="PASS" start="2026-07-09T16:39:06.579135" elapsed="0.138991"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-07-09T16:39:09.720252" level="INFO">Slept 3 seconds.</msg>
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-07-09T16:39:06.718938" elapsed="3.001562"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-07-09T16:39:09.720875" elapsed="3.271194"/>
+</kw>
+<status status="PASS" start="2026-07-09T16:38:43.775150" elapsed="29.217424"/>
+</test>
+<status status="PASS" start="2026-07-09T16:38:43.397397" elapsed="29.596029"/>
+</suite>
+<status status="PASS" start="2026-07-09T16:38:43.322975" elapsed="29.671558"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Suites" id="s1" pass="1" fail="0" skip="0">Suites</stat>
+<stat name="Inputbox" id="s1-s1" pass="1" fail="0" skip="0">Suites.Inputbox</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

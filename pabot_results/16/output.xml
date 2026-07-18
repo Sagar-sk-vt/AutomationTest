@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.13.14 on win32)" generated="2026-07-09T16:39:33.536869" rpa="false" schemaversion="5">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="SpeedTest" source="C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\TestCases\SpeedTest.robot">
+<test id="s1-s1-t1" name="Registration Test" line="10">
+<kw name="Get Selenium Speed" owner="SeleniumLibrary">
+<msg time="2026-07-09T16:39:34.802553" level="INFO">${speed} = 0 seconds</msg>
+<var>${speed}</var>
+<doc>Gets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" start="2026-07-09T16:39:34.801911" elapsed="0.000753"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${speed}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-07-09T16:39:34.802982" elapsed="0.000778"/>
+</kw>
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-07-09T16:39:34.804629" level="INFO">Opening browser 'chrome' to base url 'https://demowebshop.tricentis.com/register'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-07-09T16:39:34.804132" elapsed="4.156953"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-07-09T16:39:38.961588" elapsed="0.359509"/>
+</kw>
+<kw name="Set Selenium Speed" owner="SeleniumLibrary">
+<arg>1 seconds</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" start="2026-07-09T16:39:39.321502" elapsed="0.000541"/>
+</kw>
+<kw name="Select Radio Button" owner="SeleniumLibrary">
+<msg time="2026-07-09T16:39:39.323265" level="INFO">Selecting 'M' from radio button 'Gender'.</msg>
+<arg>Gender</arg>
+<arg>M</arg>
+<doc>Sets the radio button group ``group_name`` to ``value``.</doc>
+<status status="PASS" start="2026-07-09T16:39:39.322357" elapsed="3.365152"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-07-09T16:39:42.689730" level="INFO">Typing text 'sagar' into text field 'id:FirstName'.</msg>
+<arg>id:FirstName</arg>
+<arg>sagar</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-07-09T16:39:42.688137" elapsed="3.301077"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-07-09T16:39:45.990412" level="INFO">Typing text 'KKR' into text field 'id:LastName'.</msg>
+<arg>id:LastName</arg>
+<arg>KKR</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-07-09T16:39:45.989711" elapsed="3.182298"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-07-09T16:39:49.173819" level="INFO">Typing text 'sagarkk@amd.cc' into text field 'name:Email'.</msg>
+<arg>name:Email</arg>
+<arg>sagarkk@amd.cc</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-07-09T16:39:49.172836" elapsed="3.289164"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-07-09T16:39:52.463218" level="INFO">Typing text 'sk1234' into text field 'id:Password'.</msg>
+<arg>id:Password</arg>
+<arg>sk1234</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-07-09T16:39:52.462596" elapsed="3.198474"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-07-09T16:39:55.661904" level="INFO">Typing text 'sk1234' into text field 'name:ConfirmPassword'.</msg>
+<arg>name:ConfirmPassword</arg>
+<arg>sk1234</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-07-09T16:39:55.661348" elapsed="3.090376"/>
+</kw>
+<kw name="Get Selenium Speed" owner="SeleniumLibrary">
+<msg time="2026-07-09T16:39:58.752433" level="INFO">${speed} = 1 second</msg>
+<var>${speed}</var>
+<doc>Gets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" start="2026-07-09T16:39:58.752127" elapsed="0.000334"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${speed}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-07-09T16:39:58.752580" elapsed="0.000438"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-07-09T16:39:58.753262" elapsed="3.187383"/>
+</kw>
+<status status="PASS" start="2026-07-09T16:39:34.800389" elapsed="27.140680"/>
+</test>
+<status status="PASS" start="2026-07-09T16:39:33.962270" elapsed="27.979474"/>
+</suite>
+<status status="PASS" start="2026-07-09T16:39:33.545380" elapsed="28.397098"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Suites" id="s1" pass="1" fail="0" skip="0">Suites</stat>
+<stat name="SpeedTest" id="s1-s1" pass="1" fail="0" skip="0">Suites.SpeedTest</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

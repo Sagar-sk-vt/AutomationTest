@@ -1,0 +1,21 @@
+[ WARN ] Keyword 'Capture Page Screenshot' could not be run on failure: Alert Text: Press a button!
+Message: unexpected alert open: {Alert text : Press a button!}
+  (Session info: chrome=150.0.7871.47)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff69a4ea865+152a5]
+	chromedriver!GetHandleVerifier [0x7ff69a4ea8c0+15300]
+	chromedriver!(No symbol) [0x7ff69a04596d]
+	chromedriver!(No symbol) [0x7ff69a0ee84f]
+	chromedriver!(No symbol) [0x7ff69a092b3c]
+	chromedriver!(No symbol) [0x7ff69a093a53]
+	chromedriver!GetHandleVerifier [0x7ff69aacd3a1+5f7de1]
+	chromedriver!GetHandleVerifier [0x7ff69aac7a3b+5f247b]
+	chromedriver!GetHandleVerifier [0x7ff69aaebca5+6166e5]
+	chromedriver!GetHandleVerifier [0x7ff69a5072ae+31cee]
+	chromedriver!GetHandleVerifier [0x7ff69a50fe3c+3a87c]
+	chromedriver!GetHandleVerifier [0x7ff69a4f4404+1ee44]
+	chromedriver!GetHandleVerifier [0x7ff69a4f4594+1efd4]
+	chromedriver!GetHandleVerifier [0x7ff69a4d75c7+2007]
+	KERNEL32!BaseThreadInitThunk [0x7ff8eadfe957+17]
+	ntdll!RtlUserThreadStart [0x7ff8ec967c1c+2c]
+

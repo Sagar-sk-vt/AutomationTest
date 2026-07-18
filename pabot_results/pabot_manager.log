@@ -1,0 +1,363 @@
+[INFO]    Initialized logging in .\pabot_results
+[INFO]    Robot Framework remote server at 127.0.0.1:8270 started.
+[DEBUG]   Storing .pabotsuitenames file
+[DEBUG]   2026-07-09 16:38:37.678419 [PID:25440] [3] [ID:1] EXECUTING Suites.DB
+[DEBUG]   2026-07-09 16:38:37.678727 [PID:13828] [1] [ID:3] EXECUTING Suites.DataDrivenTesting 2
+[DEBUG]   2026-07-09 16:38:37.678872 [PID:16396] [0] [ID:0] EXECUTING Suites.Alert
+[DEBUG]   2026-07-09 16:38:37.679221 [PID:4584] [2] [ID:2] EXECUTING Suites.DataDrivenTesting 1
+[INFO]    2026-07-09 16:38:39.023730 [PID:4584] [2] [ID:2] Execution failed in Suites.DataDrivenTesting 1 with 3 failing test(s)
+==============================================================================
+Suites
+==============================================================================
+Suites.DataDrivenTesting 1
+==============================================================================
+Invalid User and Password                                             | FAIL |
+Parent suite setup failed:
+No keyword with name 'Open My Browser' found. Did you mean:
+    SeleniumLibrary.Open Browser
+------------------------------------------------------------------------------
+Invalid User and correct Password                                     | FAIL |
+Parent suite setup failed:
+No keyword with name 'Open My Browser' found. Did you mean:
+    SeleniumLibrary.Open Browser
+------------------------------------------------------------------------------
+Correct User and invalid Password                                     | FAIL |
+Parent suite setup failed:
+No keyword with name 'Open My Browser' found. Did you mean:
+    SeleniumLibrary.Open Browser
+------------------------------------------------------------------------------
+Suites.DataDrivenTesting 1                                            | FAIL |
+Suite setup failed:
+No keyword with name 'Open My Browser' found. Did you mean:
+    SeleniumLibrary.Open Browser
+
+Also suite teardown failed:
+No keyword with name 'Closed Browser' found. Did you mean:
+    SeleniumLibrary.Close Browser
+
+3 tests, 0 passed, 3 failed
+==============================================================================
+Suites                                                                | FAIL |
+3 tests, 0 passed, 3 failed
+==============================================================================
+Output:  C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\pabot_results\2\output.xml
+
+[ ERROR ] Error in file 'C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\TestCases\DataDrivenTesting_1.robot' on line 3: Resource file '..\Resources\Login_Resources.robot' does not exist.
+[INFO]    2026-07-09 16:38:39.023934 [PID:13828] [1] [ID:3] Execution failed in Suites.DataDrivenTesting 2 with 1 failing test(s)
+==============================================================================
+Suites
+==============================================================================
+Suites.DataDrivenTesting 2
+==============================================================================
+Blank user name                                                       | FAIL |
+Parent suite setup failed:
+No keyword with name 'Open My Browser' found. Did you mean:
+    SeleniumLibrary.Open Browser
+------------------------------------------------------------------------------
+Suites.DataDrivenTesting 2                                            | FAIL |
+Suite setup failed:
+No keyword with name 'Open My Browser' found. Did you mean:
+    SeleniumLibrary.Open Browser
+
+Also suite teardown failed:
+No keyword with name 'Closed Browser' found. Did you mean:
+    SeleniumLibrary.Close Browser
+
+1 test, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\pabot_results\3\output.xml
+
+[ ERROR ] Error in file 'C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\TestCases\DataDrivenTesting_2.robot' on line 3: Resource file '..\Resources\Login_Resources.robot' does not exist.
+[DEBUG]   2026-07-09 16:38:39.031593 [PID:23668] [0] [ID:4] EXECUTING Suites.DataDrivenTesting 3
+[DEBUG]   2026-07-09 16:38:39.031823 [PID:20868] [1] [ID:5] EXECUTING Suites.DataDrivenTesting Excel
+[INFO]    2026-07-09 16:38:40.196886 [PID:20868] [1] [ID:5] Execution failed in Suites.DataDrivenTesting Excel with 1 failing test(s)
+==============================================================================
+Suites
+==============================================================================
+Suites.DataDrivenTesting Excel
+==============================================================================
+InvalidLoginTest ${username} and ${password}                          | FAIL |
+Parent suite setup failed:
+No keyword with name 'Open My Browser' found. Did you mean:
+    SeleniumLibrary.Open Browser
+------------------------------------------------------------------------------
+Suites.DataDrivenTesting Excel                                        | FAIL |
+Suite setup failed:
+No keyword with name 'Open My Browser' found. Did you mean:
+    SeleniumLibrary.Open Browser
+
+Also suite teardown failed:
+No keyword with name 'Closed Browser' found. Did you mean:
+    SeleniumLibrary.Close Browser
+
+1 test, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\pabot_results\5\output.xml
+
+[ ERROR ] Error in file 'C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\TestCases\DataDrivenTesting_Excel.robot' on line 3: Resource file '..\Resources\Login_Resources.robot' does not exist.
+[ ERROR ] Error in file 'C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\TestCases\DataDrivenTesting_Excel.robot' on line 4: Importing library 'DataDriver' failed: ModuleNotFoundError: No module named 'DataDriver'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\.venv\Scripts\robot.exe
+  C:\Users\SagarKhobragade\AppData\Local\Programs\Python\Python313\python313.zip
+  C:\Users\SagarKhobragade\AppData\Local\Programs\Python\Python313\DLLs
+  C:\Users\SagarKhobragade\AppData\Local\Programs\Python\Python313\Lib
+  C:\Users\SagarKhobragade\AppData\Local\Programs\Python\Python313
+  C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\.venv
+  C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\.venv\Lib\site-packages
+[DEBUG]   2026-07-09 16:38:40.250686 [PID:19328] [2] [ID:6] EXECUTING Suites.ForLoop
+[INFO]    2026-07-09 16:38:40.278959 [PID:23668] [0] [ID:4] Execution failed in Suites.DataDrivenTesting 3 with 1 failing test(s)
+==============================================================================
+Suites
+==============================================================================
+Suites.DataDrivenTesting 3
+==============================================================================
+Blank Password                                                        | FAIL |
+Parent suite setup failed:
+No keyword with name 'Open My Browser' found. Did you mean:
+    SeleniumLibrary.Open Browser
+------------------------------------------------------------------------------
+Suites.DataDrivenTesting 3                                            | FAIL |
+Suite setup failed:
+No keyword with name 'Open My Browser' found. Did you mean:
+    SeleniumLibrary.Open Browser
+
+Also suite teardown failed:
+No keyword with name 'Closed Browser' found. Did you mean:
+    SeleniumLibrary.Close Browser
+
+1 test, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\pabot_results\4\output.xml
+
+[ ERROR ] Error in file 'C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\TestCases\DataDrivenTesting_3.robot' on line 3: Resource file '..\Resources\Login_Resources.robot' does not exist.
+[DEBUG]   2026-07-09 16:38:40.300851 [PID:21860] [3] [ID:7] EXECUTING Suites.GetAllLinks
+[INFO]    2026-07-09 16:38:42.105484 [PID:19328] [2] [ID:6] PASSED Suites.ForLoop in 1.9 seconds
+[DEBUG]   2026-07-09 16:38:42.115126 [PID:25548] [0] [ID:8] EXECUTING Suites.Inputbox
+[DEBUG]   2026-07-09 16:38:42.746713 [PID:16396] [0] [ID:0] still running Suites.Alert after 5.0s
+[INFO]    2026-07-09 16:38:42.925483 [PID:25440] [3] [ID:1] Execution failed in Suites.DB with 1 failing test(s)
+==============================================================================
+Suites
+==============================================================================
+Suites.DB
+==============================================================================
+Create Table                                                          | FAIL |
+Parent suite setup failed:
+OperationalError: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+------------------------------------------------------------------------------
+Suites.DB                                                             | FAIL |
+Suite setup failed:
+OperationalError: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+
+1 test, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\pabot_results\1\output.xml
+[DEBUG]   2026-07-09 16:38:42.940024 [PID:12932] [1] [ID:9] EXECUTING Suites.LoginTest
+[DEBUG]   2026-07-09 16:38:45.918329 [PID:21860] [3] [ID:7] still running Suites.GetAllLinks after 5.0s
+[DEBUG]   2026-07-09 16:38:47.433604 [PID:25548] [0] [ID:8] still running Suites.Inputbox after 5.0s
+[DEBUG]   2026-07-09 16:38:48.337629 [PID:12932] [1] [ID:9] still running Suites.LoginTest after 5.0s
+[DEBUG]   2026-07-09 16:38:53.065720 [PID:16396] [0] [ID:0] still running Suites.Alert after 15.0s
+[INFO]    2026-07-09 16:38:53.632554 [PID:16396] [0] [ID:0] Execution failed in Suites.Alert with 1 failing test(s)
+==============================================================================
+Suites
+==============================================================================
+Suites.Alert
+==============================================================================
+Alert Test                                                            | FAIL |
+ValueError: Invalid alert action 'PRESS A BUTTON!'.
+------------------------------------------------------------------------------
+Suites.Alert                                                          | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\pabot_results\0\output.xml
+
+[ WARN ] Keyword 'Capture Page Screenshot' could not be run on failure: Alert Text: Press a button!
+Message: unexpected alert open: {Alert text : Press a button!}
+  (Session info: chrome=150.0.7871.47)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7aff2a865+152a5]
+	chromedriver!GetHandleVerifier [0x7ff7aff2a8c0+15300]
+	chromedriver!(No symbol) [0x7ff7afa8596d]
+	chromedriver!(No symbol) [0x7ff7afb2e84f]
+	chromedriver!(No symbol) [0x7ff7afad2b3c]
+	chromedriver!(No symbol) [0x7ff7afad3a53]
+	chromedriver!GetHandleVerifier [0x7ff7b050d3a1+5f7de1]
+	chromedriver!GetHandleVerifier [0x7ff7b0507a3b+5f247b]
+	chromedriver!GetHandleVerifier [0x7ff7b052bca5+6166e5]
+	chromedriver!GetHandleVerifier [0x7ff7aff472ae+31cee]
+	chromedriver!GetHandleVerifier [0x7ff7aff4fe3c+3a87c]
+	chromedriver!GetHandleVerifier [0x7ff7aff34404+1ee44]
+	chromedriver!GetHandleVerifier [0x7ff7aff34594+1efd4]
+	chromedriver!GetHandleVerifier [0x7ff7aff175c7+2007]
+	KERNEL32!BaseThreadInitThunk [0x7ff8eadfe957+17]
+	ntdll!RtlUserThreadStart [0x7ff8ec967c1c+2c]
+[DEBUG]   2026-07-09 16:38:53.655917 [PID:12324] [2] [ID:10] EXECUTING Suites.MouseOperation
+[INFO]    2026-07-09 16:38:55.589777 [PID:21860] [3] [ID:7] Execution failed in Suites.GetAllLinks with 1 failing test(s)
+==============================================================================
+Suites
+==============================================================================
+Suites.GetAllLinks
+==============================================================================
+AllPageLinks                                                          63
+| FAIL |
+Element with locator 'xpath:(//a)[0]' not found.
+------------------------------------------------------------------------------
+Suites.GetAllLinks                                                    | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\pabot_results\7\output.xml
+[DEBUG]   2026-07-09 16:38:55.625304 [PID:676] [3] [ID:11] EXECUTING Suites.MultipleBrowser
+[DEBUG]   2026-07-09 16:38:57.529844 [PID:25548] [0] [ID:8] still running Suites.Inputbox after 15.0s
+[DEBUG]   2026-07-09 16:38:58.609719 [PID:12932] [1] [ID:9] still running Suites.LoginTest after 15.0s
+[DEBUG]   2026-07-09 16:38:58.755930 [PID:12324] [2] [ID:10] still running Suites.MouseOperation after 5.0s
+[DEBUG]   2026-07-09 16:39:01.080877 [PID:676] [3] [ID:11] still running Suites.MultipleBrowser after 5.0s
+[DEBUG]   2026-07-09 16:39:08.993799 [PID:12324] [2] [ID:10] still running Suites.MouseOperation after 15.0s
+[DEBUG]   2026-07-09 16:39:11.714953 [PID:676] [3] [ID:11] still running Suites.MultipleBrowser after 15.0s
+[DEBUG]   2026-07-09 16:39:12.987263 [PID:25548] [0] [ID:8] still running Suites.Inputbox after 30.0s
+[INFO]    2026-07-09 16:39:13.502628 [PID:25548] [0] [ID:8] PASSED Suites.Inputbox in 31.4 seconds
+[DEBUG]   2026-07-09 16:39:13.521065 [PID:19340] [0] [ID:12] EXECUTING Suites.Radiobutton
+[INFO]    2026-07-09 16:39:14.161525 [PID:12324] [2] [ID:10] PASSED Suites.MouseOperation in 20.5 seconds
+[DEBUG]   2026-07-09 16:39:14.176876 [PID:2584] [1] [ID:13] EXECUTING Suites.Screenshot
+[DEBUG]   2026-07-09 16:39:14.532479 [PID:12932] [1] [ID:9] still running Suites.LoginTest after 30.0s
+[INFO]    2026-07-09 16:39:16.058104 [PID:12932] [1] [ID:9] PASSED Suites.LoginTest in 33.1 seconds
+[DEBUG]   2026-07-09 16:39:16.073634 [PID:13216] [2] [ID:14] EXECUTING Suites.Scroll
+[DEBUG]   2026-07-09 16:39:18.787604 [PID:19340] [0] [ID:12] still running Suites.Radiobutton after 5.0s
+[DEBUG]   2026-07-09 16:39:19.395425 [PID:2584] [1] [ID:13] still running Suites.Screenshot after 5.0s
+[DEBUG]   2026-07-09 16:39:22.025783 [PID:13216] [2] [ID:14] still running Suites.Scroll after 5.0s
+[DEBUG]   2026-07-09 16:39:28.599960 [PID:676] [3] [ID:11] still running Suites.MultipleBrowser after 30.0s
+[DEBUG]   2026-07-09 16:39:29.096453 [PID:19340] [0] [ID:12] still running Suites.Radiobutton after 15.0s
+[DEBUG]   2026-07-09 16:39:29.703247 [PID:2584] [1] [ID:13] still running Suites.Screenshot after 15.0s
+[INFO]    2026-07-09 16:39:31.373191 [PID:19340] [0] [ID:12] Execution failed in Suites.Radiobutton with 1 failing test(s)
+==============================================================================
+Suites
+==============================================================================
+Suites.Radiobutton
+==============================================================================
+Dropdown operation                                                    | FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <span class="multiselect-selected-text">...</span> is not clickable at point (747, 665). Other element would receive the click: <div class="cookies-eu-banner">...</div>
+  (Session info: chrome=150.0.7871.47); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7aff2a865+152a5]
+	chromedriver!GetHandleVerifier [0x7ff7aff2a8c0+15300]
+	chromedriver!(No symbol) [0x7ff7afa8596d]
+	chromedriver!(No symbol) [0x7ff7afae8225]
+	chromedriver!(No symbol) [0x7ff7afae5e43]
+	chromedriver!(No symbol) [0x7ff7afae3197]
+	chromedriver!(No symbol) [0x7ff7afae2060]
+	chromedriver!(No symbol) [0x7ff7afad4a58]
+	chromedriver!(No symbol) [0x7ff7afb08e6a]
+	chromedriver!(No symbol) [0x7ff7afad42d6]
+	chromedriver!(No symbol) [0x7ff7afb2dcf4]
+	chromedriver!(No symbol) [0x7ff7afad2b3c]
+	chromedriver!(No symbol) [0x7ff7afad3a53]
+	chromedriver!GetHandleVerifier [0x7ff7b050d3a1+5f7de1]
+	chromedriver!GetHandleVerifier [0x7ff7b0507a3b+5f247b]
+	chromedriver!GetHandleVerifier [0x7ff7b052bca5+6166e5]
+	chromedriver!GetHandleVerifier [0x7ff7aff472ae+31cee]
+	chromedriver!GetHandleVerifier [0x7ff7aff4fe3c+3a87c]
+	chromedriver!GetHandleVerifier [0x7ff7aff34404+1ee44]
+	chromedriver!GetHandleVerifier [0x7ff7aff34594+1efd4]
+	chromedriver!GetHandleVerifier [0x7ff7aff175c7+2007]
+	KERNEL32!BaseThreadInitThunk [0x7ff8eadfe957+17]
+	ntdll!RtlUserThreadStart [0x7ff8ec967c1c+2c]
+------------------------------------------------------------------------------
+Suites.Radiobutton                                                    | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\pabot_results\12\output.xml
+[DEBUG]   2026-07-09 16:39:31.395720 [PID:26132] [3] [ID:15] EXECUTING Suites.SetUpAndTearDown
+[INFO]    2026-07-09 16:39:32.259959 [PID:2584] [1] [ID:13] PASSED Suites.Screenshot in 18.1 seconds
+[DEBUG]   2026-07-09 16:39:32.273214 [PID:26212] [0] [ID:16] EXECUTING Suites.SpeedTest
+[DEBUG]   2026-07-09 16:39:32.854383 [PID:13216] [2] [ID:14] still running Suites.Scroll after 15.0s
+[INFO]    2026-07-09 16:39:33.119671 [PID:26132] [3] [ID:15] PASSED Suites.SetUpAndTearDown in 1.7 seconds
+[DEBUG]   2026-07-09 16:39:33.134837 [PID:26492] [1] [ID:17] EXECUTING Suites.TC1
+[INFO]    2026-07-09 16:39:35.635186 [PID:13216] [2] [ID:14] PASSED Suites.Scroll in 19.5 seconds
+[DEBUG]   2026-07-09 16:39:35.654888 [PID:12416] [2] [ID:18] EXECUTING Suites.Table
+[DEBUG]   2026-07-09 16:39:37.424244 [PID:26212] [0] [ID:16] still running Suites.SpeedTest after 5.0s
+[DEBUG]   2026-07-09 16:39:38.292183 [PID:26492] [1] [ID:17] still running Suites.TC1 after 5.0s
+[DEBUG]   2026-07-09 16:39:40.975465 [PID:12416] [2] [ID:18] still running Suites.Table after 5.0s
+[DEBUG]   2026-07-09 16:39:47.519197 [PID:26212] [0] [ID:16] still running Suites.SpeedTest after 15.0s
+[DEBUG]   2026-07-09 16:39:48.360583 [PID:26492] [1] [ID:17] still running Suites.TC1 after 15.0s
+[DEBUG]   2026-07-09 16:39:49.252651 [PID:676] [3] [ID:11] still running Suites.MultipleBrowser after 50.0s
+[INFO]    2026-07-09 16:39:49.711650 [PID:12416] [2] [ID:18] PASSED Suites.Table in 14.1 seconds
+[DEBUG]   2026-07-09 16:39:49.722189 [PID:6652] [3] [ID:19] EXECUTING Suites.TimeOutTest
+[INFO]    2026-07-09 16:39:49.813541 [PID:26492] [1] [ID:17] PASSED Suites.TC1 in 16.7 seconds
+[DEBUG]   2026-07-09 16:39:49.827230 [PID:6104] [0] [ID:20] EXECUTING Suites.UserKeywords
+[INFO]    2026-07-09 16:39:51.312031 [PID:676] [3] [ID:11] PASSED Suites.MultipleBrowser in 55.7 seconds
+[DEBUG]   2026-07-09 16:39:51.340547 [PID:23968] [1] [ID:21] EXECUTING Suites.Window
+[INFO]    2026-07-09 16:39:51.547368 [PID:6104] [0] [ID:20] Execution failed in Suites.UserKeywords with 1 failing test(s)
+==============================================================================
+Suites
+==============================================================================
+Suites.UserKeywords
+==============================================================================
+Alert Test                                                            | FAIL |
+No keyword with name 'launchBrowser' found.
+------------------------------------------------------------------------------
+Suites.UserKeywords                                                   | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\pabot_results\20\output.xml
+
+[ ERROR ] Error in file 'C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\TestCases\UserKeywords.robot' on line 3: Resource file '..\Resources\Resources.robot' does not exist.
+[DEBUG]   2026-07-09 16:39:54.820389 [PID:6652] [3] [ID:19] still running Suites.TimeOutTest after 5.0s
+[DEBUG]   2026-07-09 16:39:56.426749 [PID:23968] [1] [ID:21] still running Suites.Window after 5.0s
+[INFO]    2026-07-09 16:40:02.497449 [PID:26212] [0] [ID:16] PASSED Suites.SpeedTest in 30.2 seconds
+[DEBUG]   2026-07-09 16:40:04.948854 [PID:6652] [3] [ID:19] still running Suites.TimeOutTest after 15.0s
+[DEBUG]   2026-07-09 16:40:06.568970 [PID:23968] [1] [ID:21] still running Suites.Window after 15.0s
+[INFO]    2026-07-09 16:40:11.276946 [PID:23968] [1] [ID:21] PASSED Suites.Window in 19.9 seconds
+[INFO]    2026-07-09 16:40:18.305370 [PID:6652] [3] [ID:19] Execution failed in Suites.TimeOutTest with 1 failing test(s)
+==============================================================================
+Suites
+==============================================================================
+Suites.TimeOutTest
+==============================================================================
+Registration TimeOut Test                                             | PASS |
+------------------------------------------------------------------------------
+Implicit Wait                                                         | FAIL |
+Element with locator 'id:FirstName1' not found.
+------------------------------------------------------------------------------
+Suites.TimeOutTest                                                    | FAIL |
+2 tests, 1 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+2 tests, 1 passed, 1 failed
+==============================================================================
+Output:  C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\pabot_results\19\output.xml
+[INFO]    33 tests, 21 passed, 12 failed, 0 skipped.
+[INFO]    ===================================================
+[INFO]    Output:  C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\output.xml
+[INFO]    Log:     C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\log.html
+[INFO]    Report:  C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\report.html
+[DEBUG]   Finalizing Pabot execution...
+[DEBUG]   Stopping PabotLib process
+[INFO]    Robot Framework remote server at 127.0.0.1:8270 stopped.
+[DEBUG]   PabotLib process stopped
+[INFO]    Total testing: 5 minutes 52.10 seconds
+[INFO]    Elapsed time:  1 minute 41.69 seconds
+[DEBUG]   Logs flushed successfully.

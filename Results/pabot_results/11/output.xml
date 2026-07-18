@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.13.14 on win32)" generated="2026-07-09T21:07:30.628993" rpa="false" schemaversion="5">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="MultipleBrowser" source="C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\TestCases\MultipleBrowser.robot">
+<test id="s1-s1-t1" name="Alert Test" line="10">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-07-09T21:07:31.932778" level="INFO">Opening browser 'chrome' to base url 'https://shopmastercardmerchb2c.lapine.dev/QA/'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-07-09T21:07:31.930403" elapsed="5.210098"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-07-09T21:07:37.146624" elapsed="8.226728"/>
+</kw>
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-07-09T21:07:45.380676" level="INFO">Opening browser 'chrome' to base url 'https://shopmastercardmerchb2c.lapine.dev/QA/index.php?route=issue_tracker/issue_tracker&amp;page=common/home'.</msg>
+<arg>${url2}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-07-09T21:07:45.377835" elapsed="3.276313"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-07-09T21:07:48.654633" elapsed="4.294100"/>
+</kw>
+<kw name="Switch Browser" owner="SeleniumLibrary">
+<arg>1</arg>
+<doc>Switches between active browsers using ``index_or_alias``.</doc>
+<status status="PASS" start="2026-07-09T21:07:52.949129" elapsed="0.000481"/>
+</kw>
+<kw name="Get Title" owner="SeleniumLibrary">
+<msg time="2026-07-09T21:07:53.183766" level="INFO">${title} = Mastercard - MastercardB2C</msg>
+<var>${title}</var>
+<doc>Returns the title of the current page.</doc>
+<status status="PASS" start="2026-07-09T21:07:52.949932" elapsed="0.233970"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${title}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-07-09T21:07:53.184266" elapsed="0.000929"/>
+</kw>
+<kw name="Switch Browser" owner="SeleniumLibrary">
+<arg>2</arg>
+<doc>Switches between active browsers using ``index_or_alias``.</doc>
+<status status="PASS" start="2026-07-09T21:07:53.185494" elapsed="0.005686"/>
+</kw>
+<kw name="Get Title" owner="SeleniumLibrary">
+<msg time="2026-07-09T21:07:53.328590" level="INFO">${title1} = UAT Issue Tracker - MastercardB2C</msg>
+<var>${title1}</var>
+<doc>Returns the title of the current page.</doc>
+<status status="PASS" start="2026-07-09T21:07:53.191803" elapsed="0.136902"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${title1}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-07-09T21:07:53.329041" elapsed="0.000799"/>
+</kw>
+<kw name="Close All Browsers" owner="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2026-07-09T21:07:53.330145" elapsed="13.644904"/>
+</kw>
+<status status="PASS" start="2026-07-09T21:07:31.925292" elapsed="35.050314"/>
+</test>
+<test id="s1-s1-t2" name="Navigation Test" line="24">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-07-09T21:08:06.977723" level="INFO">Opening browser 'chrome' to base url 'https://shopmastercardmerchb2c.lapine.dev/QA/'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-07-09T21:08:06.977043" elapsed="34.912778"/>
+</kw>
+<kw name="Get Location" owner="SeleniumLibrary">
+<msg time="2026-07-09T21:08:41.898564" level="INFO">${Loc} = https://shopmastercardmerchb2c.lapine.dev/QA/</msg>
+<var>${Loc}</var>
+<doc>Returns the current browser window URL.</doc>
+<status status="PASS" start="2026-07-09T21:08:41.890464" elapsed="0.008189"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${Loc}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-07-09T21:08:41.898919" elapsed="0.001203"/>
+</kw>
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2026-07-09T21:08:41.901950" level="INFO">Opening url 'https://shopmastercardmerchb2c.lapine.dev/QA/index.php?route=issue_tracker/issue_tracker&amp;page=common/home'</msg>
+<msg time="2026-07-09T21:11:46.958178" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2026-07-09T21:11:46.958873" level="FAIL">ReadTimeoutError: HTTPConnectionPool(host='localhost', port=49283): Read timed out. (read timeout=120)</msg>
+<arg>${url2}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="FAIL" start="2026-07-09T21:08:41.901396" elapsed="185.362664">ReadTimeoutError: HTTPConnectionPool(host='localhost', port=49283): Read timed out. (read timeout=120)</status>
+</kw>
+<kw name="Get Location" owner="SeleniumLibrary">
+<var>${Loc}</var>
+<doc>Returns the current browser window URL.</doc>
+<status status="NOT RUN" start="2026-07-09T21:11:47.264335" elapsed="0.000040"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${Loc}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2026-07-09T21:11:47.264486" elapsed="0.000029"/>
+</kw>
+<kw name="Go Back" owner="SeleniumLibrary">
+<doc>Simulates the user clicking the back button on their browser.</doc>
+<status status="NOT RUN" start="2026-07-09T21:11:47.264605" elapsed="0.000024"/>
+</kw>
+<kw name="Get Location" owner="SeleniumLibrary">
+<var>${Loc}</var>
+<doc>Returns the current browser window URL.</doc>
+<status status="NOT RUN" start="2026-07-09T21:11:47.264707" elapsed="0.000022"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${Loc}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2026-07-09T21:11:47.264807" elapsed="0.000024"/>
+</kw>
+<status status="FAIL" start="2026-07-09T21:08:06.976219" elapsed="220.288810">ReadTimeoutError: HTTPConnectionPool(host='localhost', port=49283): Read timed out. (read timeout=120)</status>
+</test>
+<status status="FAIL" start="2026-07-09T21:07:30.755930" elapsed="256.509581"/>
+</suite>
+<status status="FAIL" start="2026-07-09T21:07:30.634240" elapsed="256.631922"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Suites" id="s1" pass="1" fail="1" skip="0">Suites</stat>
+<stat name="MultipleBrowser" id="s1-s1" pass="1" fail="1" skip="0">Suites.MultipleBrowser</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,40 @@
+2026-07-09 21:07:49.509900 ==============================================================================
+2026-07-09 21:07:49.534674 Suites
+2026-07-09 21:07:49.534751 ==============================================================================
+2026-07-09 21:07:50.084987 Suites.Radiobutton
+2026-07-09 21:07:50.126319 ==============================================================================
+2026-07-09 21:08:01.129065 Dropdown operation                                                    | FAIL |
+2026-07-09 21:08:01.187747 ElementClickInterceptedException: Message: element click intercepted: Element <span class="multiselect-selected-text">...</span> is not clickable at point (747, 665). Other element would receive the click: <div class="cookies-eu-banner">...</div>
+2026-07-09 21:08:01.191173   (Session info: chrome=150.0.7871.47); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+2026-07-09 21:08:01.191220 Stacktrace:
+2026-07-09 21:08:01.191247 	chromedriver!GetHandleVerifier [0x7ff69a4ea865+152a5]
+2026-07-09 21:08:01.191271 	chromedriver!GetHandleVerifier [0x7ff69a4ea8c0+15300]
+2026-07-09 21:08:01.191294 	chromedriver!(No symbol) [0x7ff69a04596d]
+2026-07-09 21:08:01.191317 	chromedriver!(No symbol) [0x7ff69a0a8225]
+2026-07-09 21:08:01.191340 	chromedriver!(No symbol) [0x7ff69a0a5e43]
+2026-07-09 21:08:01.191365 	chromedriver!(No symbol) [0x7ff69a0a3197]
+2026-07-09 21:08:01.191387 	chromedriver!(No symbol) [0x7ff69a0a2060]
+2026-07-09 21:08:01.191409 	chromedriver!(No symbol) [0x7ff69a094a58]
+2026-07-09 21:08:01.191434 	chromedriver!(No symbol) [0x7ff69a0c8e6a]
+2026-07-09 21:08:01.191457 	chromedriver!(No symbol) [0x7ff69a0942d6]
+2026-07-09 21:08:01.191479 	chromedriver!(No symbol) [0x7ff69a0edcf4]
+2026-07-09 21:08:01.191502 	chromedriver!(No symbol) [0x7ff69a092b3c]
+2026-07-09 21:08:01.191529 	chromedriver!(No symbol) [0x7ff69a093a53]
+2026-07-09 21:08:01.191617 	chromedriver!GetHandleVerifier [0x7ff69aacd3a1+5f7de1]
+2026-07-09 21:08:01.191660 	chromedriver!GetHandleVerifier [0x7ff69aac7a3b+5f247b]
+2026-07-09 21:08:01.191687 	chromedriver!GetHandleVerifier [0x7ff69aaebca5+6166e5]
+2026-07-09 21:08:01.191712 	chromedriver!GetHandleVerifier [0x7ff69a5072ae+31cee]
+2026-07-09 21:08:01.191735 	chromedriver!GetHandleVerifier [0x7ff69a50fe3c+3a87c]
+2026-07-09 21:08:01.191760 	chromedriver!GetHandleVerifier [0x7ff69a4f4404+1ee44]
+2026-07-09 21:08:01.191784 	chromedriver!GetHandleVerifier [0x7ff69a4f4594+1efd4]
+2026-07-09 21:08:01.191808 	chromedriver!GetHandleVerifier [0x7ff69a4d75c7+2007]
+2026-07-09 21:08:01.191833 	KERNEL32!BaseThreadInitThunk [0x7ff8eadfe957+17]
+2026-07-09 21:08:01.191860 	ntdll!RtlUserThreadStart [0x7ff8ec967c1c+2c]
+2026-07-09 21:08:01.191886 ------------------------------------------------------------------------------
+2026-07-09 21:08:01.191913 Suites.Radiobutton                                                    | FAIL |
+2026-07-09 21:08:01.193668 1 test, 0 passed, 1 failed
+2026-07-09 21:08:01.193783 ==============================================================================
+2026-07-09 21:08:01.193811 Suites                                                                | FAIL |
+2026-07-09 21:08:01.195117 1 test, 0 passed, 1 failed
+2026-07-09 21:08:01.195595 ==============================================================================
+2026-07-09 21:08:01.196575 Output:  C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\Results\pabot_results\12\output.xml

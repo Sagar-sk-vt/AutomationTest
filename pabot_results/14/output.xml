@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.13.14 on win32)" generated="2026-07-09T16:39:19.460458" rpa="false" schemaversion="5">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Scroll" source="C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\TestCases\Scroll.robot">
+<test id="s1-s1-t1" name="Scrolling Test" line="10">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-07-09T16:39:22.530525" level="INFO">Opening browser 'chrome' to base url 'https://shopmastercardmerchb2c.lapine.dev/QA/index.php?route=issue_tracker/issue_tracker&amp;page=common/home'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-07-09T16:39:22.527417" elapsed="4.693661"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-07-09T16:39:27.221820" elapsed="4.596572"/>
+</kw>
+<kw name="Execute Javascript" owner="SeleniumLibrary">
+<msg time="2026-07-09T16:39:31.819332" level="INFO">Executing JavaScript:
+window.scrollTo(0,889)
+Without any arguments.</msg>
+<arg>window.scrollTo(0,889)</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<status status="PASS" start="2026-07-09T16:39:31.818888" elapsed="0.068554"/>
+</kw>
+<kw name="Scroll Element Into View" owner="SeleniumLibrary">
+<arg>xpath://div[@class='footerCopyArea']//div[@class='themeContainer']//li[4]</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" start="2026-07-09T16:39:31.888008" elapsed="0.478021"/>
+</kw>
+<kw name="Execute Javascript" owner="SeleniumLibrary">
+<msg time="2026-07-09T16:39:32.366915" level="INFO">Executing JavaScript:
+window.scrollTo(0,-document.body.scrollHeight)
+Without any arguments.</msg>
+<arg>window.scrollTo(0,-document.body.scrollHeight)</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<status status="PASS" start="2026-07-09T16:39:32.366463" elapsed="0.031851"/>
+</kw>
+<kw name="Scroll Element Into View" owner="SeleniumLibrary">
+<arg>id:btnSubmit</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" start="2026-07-09T16:39:32.398779" elapsed="0.328096"/>
+</kw>
+<kw name="Execute Javascript" owner="SeleniumLibrary">
+<msg time="2026-07-09T16:39:32.728388" level="INFO">Executing JavaScript:
+window.scrollTo(0,document.body.scrollHeight)
+Without any arguments.</msg>
+<arg>window.scrollTo(0,document.body.scrollHeight)</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<status status="PASS" start="2026-07-09T16:39:32.727635" elapsed="0.014462"/>
+</kw>
+<kw name="Execute Javascript" owner="SeleniumLibrary">
+<msg time="2026-07-09T16:39:32.743527" level="INFO">Executing JavaScript:
+window.scrollTo(0,-document.body.scrollHeight)
+Without any arguments.</msg>
+<arg>window.scrollTo(0,-document.body.scrollHeight)</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<status status="PASS" start="2026-07-09T16:39:32.742731" elapsed="0.012091"/>
+</kw>
+<status status="PASS" start="2026-07-09T16:39:22.513901" elapsed="10.241349"/>
+</test>
+<status status="PASS" start="2026-07-09T16:39:19.640184" elapsed="13.116284"/>
+</suite>
+<status status="PASS" start="2026-07-09T16:39:19.465426" elapsed="13.292891"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Suites" id="s1" pass="1" fail="0" skip="0">Suites</stat>
+<stat name="Scroll" id="s1-s1" pass="1" fail="0" skip="0">Suites.Scroll</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

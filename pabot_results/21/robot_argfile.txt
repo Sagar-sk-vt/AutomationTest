@@ -1,0 +1,38 @@
+--name Suites
+--suite Suites.Window
+--variable CALLER_ID:c17fa43db15841b492d2c9969e99bf77
+--variable PABOTLIBURI:127.0.0.1:8270
+--variable PABOTEXECUTIONPOOLID:1
+--variable PABOTISLASTEXECUTIONINPOOL:1
+--variable PABOTNUMBEROFPROCESSES:4
+--variable PABOTQUEUEINDEX:21
+--variable PABOTLASTLEVEL:
+--output output.xml
+--log NONE
+--report NONE
+--xunit NONE
+--outputdir .\pabot_results\21
+--consolecolors off
+--consolemarkers off
+TestCases\Alert.robot
+TestCases\DB.robot
+TestCases\DataDrivenTesting_1.robot
+TestCases\DataDrivenTesting_2.robot
+TestCases\DataDrivenTesting_3.robot
+TestCases\DataDrivenTesting_Excel.robot
+TestCases\ForLoop.robot
+TestCases\GetAllLinks.robot
+TestCases\LoginTest.robot
+TestCases\MouseOperation.robot
+TestCases\MultipleBrowser.robot
+TestCases\Radiobutton.robot
+TestCases\Screenshot.robot
+TestCases\Scroll.robot
+TestCases\SetUpAndTearDown.robot
+TestCases\SpeedTest.robot
+TestCases\TC1.robot
+TestCases\Table.robot
+TestCases\TimeOutTest.robot
+TestCases\UserKeywords.robot
+TestCases\Window.robot
+TestCases\inputbox.robot

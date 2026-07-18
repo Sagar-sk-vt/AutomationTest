@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.13.14 on win32)" generated="2026-07-09T21:07:12.037251" rpa="false" schemaversion="5">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="DB" source="C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\TestCases\DB.robot">
+<kw name="Connect To Database" type="SETUP">
+<msg time="2026-07-09T21:07:12.130010" level="FAIL">No keyword with name 'Connect To Database' found.</msg>
+<arg>pymysql</arg>
+<arg>${DBName}</arg>
+<arg>${DBUser}</arg>
+<arg>${DBPass}</arg>
+<status status="FAIL" start="2026-07-09T21:07:12.129951" elapsed="0.000121">No keyword with name 'Connect To Database' found.</status>
+</kw>
+<test id="s1-s1-t1" name="Create Table" line="14">
+<status status="FAIL" start="2026-07-09T21:07:12.130236" elapsed="0.000326">Parent suite setup failed:
+No keyword with name 'Connect To Database' found.</status>
+</test>
+<kw name="Disconnect From Database" type="TEARDOWN">
+<msg time="2026-07-09T21:07:12.131664" level="FAIL">No keyword with name 'Disconnect From Database' found.</msg>
+<status status="FAIL" start="2026-07-09T21:07:12.131626" elapsed="0.000078">No keyword with name 'Disconnect From Database' found.</status>
+</kw>
+<status status="FAIL" start="2026-07-09T21:07:12.115521" elapsed="0.016235">Suite setup failed:
+No keyword with name 'Connect To Database' found.
+
+Also suite teardown failed:
+No keyword with name 'Disconnect From Database' found.</status>
+</suite>
+<status status="FAIL" start="2026-07-09T21:07:12.040166" elapsed="0.092047"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Suites" id="s1" pass="0" fail="1" skip="0">Suites</stat>
+<stat name="DB" id="s1-s1" pass="0" fail="1" skip="0">Suites.DB</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2026-07-09T21:07:12.118649" level="ERROR">Error in file 'C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\TestCases\DB.robot' on line 2: Importing library 'DatabaseLibrary' failed: ModuleNotFoundError: No module named 'DatabaseLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\SagarKhobragade\AppData\Local\Programs\Python\Python313\Scripts\robot.exe
+  C:\Users\SagarKhobragade\AppData\Local\Programs\Python\Python313\python313.zip
+  C:\Users\SagarKhobragade\AppData\Local\Programs\Python\Python313\DLLs
+  C:\Users\SagarKhobragade\AppData\Local\Programs\Python\Python313\Lib
+  C:\Users\SagarKhobragade\AppData\Local\Programs\Python\Python313
+  C:\Users\SagarKhobragade\AppData\Local\Programs\Python\Python313\Lib\site-packages</msg>
+</errors>
+</robot>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.13.14 on win32)" generated="2026-07-09T21:10:01.118277" rpa="false" schemaversion="5">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="TimeOutTest" source="C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\TestCases\TimeOutTest.robot">
+<test id="s1-s1-t1" name="Registration TimeOut Test" line="9">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-07-09T21:10:01.574009" level="INFO">Opening browser 'chrome' to base url 'https://demowebshop.tricentis.com/register'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-07-09T21:10:01.573691" elapsed="52.483717"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-07-09T21:10:54.057767" elapsed="0.048914"/>
+</kw>
+<kw name="Set Selenium Timeout" owner="SeleniumLibrary">
+<arg>10 seconds</arg>
+<doc>Sets the timeout that is used by various keywords.</doc>
+<status status="PASS" start="2026-07-09T21:10:54.106960" elapsed="0.002098"/>
+</kw>
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>Categories</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" start="2026-07-09T21:10:54.109476" elapsed="0.022616"/>
+</kw>
+<kw name="Select Radio Button" owner="SeleniumLibrary">
+<msg time="2026-07-09T21:10:54.132884" level="INFO">Selecting 'M' from radio button 'Gender'.</msg>
+<arg>Gender</arg>
+<arg>M</arg>
+<doc>Sets the radio button group ``group_name`` to ``value``.</doc>
+<status status="PASS" start="2026-07-09T21:10:54.132552" elapsed="0.185604"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-07-09T21:10:54.320974" level="INFO">Typing text 'sagar' into text field 'id:FirstName'.</msg>
+<arg>id:FirstName</arg>
+<arg>sagar</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-07-09T21:10:54.319834" elapsed="0.180983"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-07-09T21:10:54.501540" level="INFO">Typing text 'KKR' into text field 'id:LastName'.</msg>
+<arg>id:LastName</arg>
+<arg>KKR</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-07-09T21:10:54.501132" elapsed="0.097366"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-07-09T21:10:54.599227" level="INFO">Typing text 'sagarkk@amd.cc' into text field 'name:Email'.</msg>
+<arg>name:Email</arg>
+<arg>sagarkk@amd.cc</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-07-09T21:10:54.598816" elapsed="0.136356"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-07-09T21:10:54.736240" level="INFO">Typing text 'sk1234' into text field 'id:Password'.</msg>
+<arg>id:Password</arg>
+<arg>sk1234</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-07-09T21:10:54.735598" elapsed="0.132767"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-07-09T21:10:54.868945" level="INFO">Typing text 'sk1234' into text field 'name:ConfirmPassword'.</msg>
+<arg>name:ConfirmPassword</arg>
+<arg>sk1234</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-07-09T21:10:54.868610" elapsed="0.128424"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-07-09T21:10:54.997247" elapsed="2.239651"/>
+</kw>
+<status status="PASS" start="2026-07-09T21:10:01.572690" elapsed="55.664475"/>
+</test>
+<test id="s1-s1-t2" name="Implicit Wait" line="22">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-07-09T21:10:57.238607" level="INFO">Opening browser 'chrome' to base url 'https://demowebshop.tricentis.com/register'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-07-09T21:10:57.238013" elapsed="80.439489"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-07-09T21:12:17.677998" elapsed="0.049297"/>
+</kw>
+<kw name="Set Selenium Implicit Wait" owner="SeleniumLibrary">
+<arg>10 seconds</arg>
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<status status="PASS" start="2026-07-09T21:12:17.727576" elapsed="0.001595"/>
+</kw>
+<kw name="Select Radio Button" owner="SeleniumLibrary">
+<msg time="2026-07-09T21:12:17.729918" level="INFO">Selecting 'M' from radio button 'Gender'.</msg>
+<arg>Gender</arg>
+<arg>M</arg>
+<doc>Sets the radio button group ``group_name`` to ``value``.</doc>
+<status status="PASS" start="2026-07-09T21:12:17.729413" elapsed="0.171231"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-07-09T21:12:17.901609" level="INFO">Typing text 'sagar' into text field 'id:FirstName1'.</msg>
+<msg time="2026-07-09T21:12:28.092718" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2026-07-09T21:12:28.093287" level="FAIL">Element with locator 'id:FirstName1' not found.</msg>
+<arg>id:FirstName1</arg>
+<arg>sagar</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="FAIL" start="2026-07-09T21:12:17.900964" elapsed="10.202291">Element with locator 'id:FirstName1' not found.</status>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>id:LastName</arg>
+<arg>KKR</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2026-07-09T21:12:28.103618" elapsed="0.000073"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>name:Email</arg>
+<arg>sagarkk@amd.cc</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2026-07-09T21:12:28.103879" elapsed="0.000048"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>id:Password</arg>
+<arg>sk1234</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2026-07-09T21:12:28.104089" elapsed="0.000044"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>name:ConfirmPassword</arg>
+<arg>sk1234</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2026-07-09T21:12:28.104282" elapsed="0.000044"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" start="2026-07-09T21:12:28.104500" elapsed="0.000049"/>
+</kw>
+<status status="FAIL" start="2026-07-09T21:10:57.237542" elapsed="90.867306">Element with locator 'id:FirstName1' not found.</status>
+</test>
+<status status="FAIL" start="2026-07-09T21:10:01.170476" elapsed="146.935096"/>
+</suite>
+<status status="FAIL" start="2026-07-09T21:10:01.120095" elapsed="146.986458"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Suites" id="s1" pass="1" fail="1" skip="0">Suites</stat>
+<stat name="TimeOutTest" id="s1-s1" pass="1" fail="1" skip="0">Suites.TimeOutTest</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

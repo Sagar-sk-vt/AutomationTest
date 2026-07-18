@@ -1,0 +1,36 @@
+2026-07-09 21:07:12.030905 ==============================================================================
+2026-07-09 21:07:12.078988 Suites
+2026-07-09 21:07:12.079040 ==============================================================================
+2026-07-09 21:07:12.639105 Suites.Alert
+2026-07-09 21:07:12.668435 ==============================================================================
+2026-07-09 21:07:24.260580 [ WARN ] Keyword 'Capture Page Screenshot' could not be run on failure: Alert Text: Press a button!
+2026-07-09 21:07:24.322920 Alert Test                                                            | FAIL |
+2026-07-09 21:07:24.322920 Message: unexpected alert open: {Alert text : Press a button!}
+2026-07-09 21:07:24.377503 ValueError: Invalid alert action 'PRESS A BUTTON!'.
+2026-07-09 21:07:24.377503   (Session info: chrome=150.0.7871.47)
+2026-07-09 21:07:24.377642 ------------------------------------------------------------------------------
+2026-07-09 21:07:24.377642 Stacktrace:
+2026-07-09 21:07:24.377780 Suites.Alert                                                          | FAIL |
+2026-07-09 21:07:24.377780 	chromedriver!GetHandleVerifier [0x7ff69a4ea865+152a5]
+2026-07-09 21:07:24.385664 1 test, 0 passed, 1 failed
+2026-07-09 21:07:24.385664 	chromedriver!GetHandleVerifier [0x7ff69a4ea8c0+15300]
+2026-07-09 21:07:24.385757 ==============================================================================
+2026-07-09 21:07:24.385757 	chromedriver!(No symbol) [0x7ff69a04596d]
+2026-07-09 21:07:24.385794 Suites                                                                | FAIL |
+2026-07-09 21:07:24.385794 	chromedriver!(No symbol) [0x7ff69a0ee84f]
+2026-07-09 21:07:24.390279 1 test, 0 passed, 1 failed
+2026-07-09 21:07:24.390279 	chromedriver!(No symbol) [0x7ff69a092b3c]
+2026-07-09 21:07:24.390374 ==============================================================================
+2026-07-09 21:07:24.390374 	chromedriver!(No symbol) [0x7ff69a093a53]
+2026-07-09 21:07:24.390452 Output:  C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\Results\pabot_results\0\output.xml
+2026-07-09 21:07:24.390452 	chromedriver!GetHandleVerifier [0x7ff69aacd3a1+5f7de1]
+2026-07-09 21:07:24.404079 	chromedriver!GetHandleVerifier [0x7ff69aac7a3b+5f247b]
+2026-07-09 21:07:24.456608 	chromedriver!GetHandleVerifier [0x7ff69aaebca5+6166e5]
+2026-07-09 21:07:24.519177 	chromedriver!GetHandleVerifier [0x7ff69a5072ae+31cee]
+2026-07-09 21:07:24.586166 	chromedriver!GetHandleVerifier [0x7ff69a50fe3c+3a87c]
+2026-07-09 21:07:24.639557 	chromedriver!GetHandleVerifier [0x7ff69a4f4404+1ee44]
+2026-07-09 21:07:24.706368 	chromedriver!GetHandleVerifier [0x7ff69a4f4594+1efd4]
+2026-07-09 21:07:24.763713 	chromedriver!GetHandleVerifier [0x7ff69a4d75c7+2007]
+2026-07-09 21:07:24.826540 	KERNEL32!BaseThreadInitThunk [0x7ff8eadfe957+17]
+2026-07-09 21:07:24.887787 	ntdll!RtlUserThreadStart [0x7ff8ec967c1c+2c]
+2026-07-09 21:07:24.950311 

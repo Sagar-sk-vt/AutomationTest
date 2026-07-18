@@ -1,0 +1,26 @@
+datasources:d99e140d4d9076d5e12ff1573b41e6975cc04e24
+commandlineoptions:9f8598a690c7367accf83ead504756ddd374acc9
+suitesfrom:no-suites-from-option
+file:71bf1ba791392a8d64e1b7c9e34f423aa4d1189e
+--suite Suites.Alert
+--suite Suites.DB
+--suite Suites.DataDrivenTesting 1
+--suite Suites.DataDrivenTesting 2
+--suite Suites.DataDrivenTesting 3
+--suite Suites.DataDrivenTesting Excel
+--suite Suites.ForLoop
+--suite Suites.GetAllLinks
+--suite Suites.Inputbox
+--suite Suites.LoginTest
+--suite Suites.MouseOperation
+--suite Suites.MultipleBrowser
+--suite Suites.Radiobutton
+--suite Suites.Screenshot
+--suite Suites.Scroll
+--suite Suites.SetUpAndTearDown
+--suite Suites.SpeedTest
+--suite Suites.TC1
+--suite Suites.Table
+--suite Suites.TimeOutTest
+--suite Suites.UserKeywords
+--suite Suites.Window

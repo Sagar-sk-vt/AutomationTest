@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.13.14 on win32)" generated="2026-07-09T16:39:52.807660" rpa="false" schemaversion="5">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Window" source="C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\TestCases\Window.robot">
+<test id="s1-s1-t1" name="Alert Test" line="9">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-07-09T16:39:53.393362" level="INFO">Opening browser 'chrome' to base url 'https://shopmastercardmerchb2c.lapine.dev/QA/'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-07-09T16:39:53.392859" elapsed="9.122942"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-07-09T16:40:02.517292" elapsed="0.146696"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2026-07-09T16:40:02.665973" level="INFO">Clicking link 'UAT Feedback Tracker'.</msg>
+<arg>UAT Feedback Tracker</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2026-07-09T16:40:02.664844" elapsed="0.332530"/>
+</kw>
+<kw name="Switch Window" owner="SeleniumLibrary">
+<arg>title=UAT Issue Tracker - MastercardB2C</arg>
+<doc>Switches to browser window matching ``locator``.</doc>
+<status status="PASS" start="2026-07-09T16:40:02.998072" elapsed="3.249516"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-07-09T16:40:06.248565" level="INFO">Typing text 'sagarKKr' into text field 'id:inputIssueTitle'.</msg>
+<arg>id:inputIssueTitle</arg>
+<arg>sagarKKr</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-07-09T16:40:06.248020" elapsed="0.498080"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-07-09T16:40:08.750183" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-07-09T16:40:06.746751" elapsed="2.003622"/>
+</kw>
+<kw name="Close All Browsers" owner="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2026-07-09T16:40:08.750623" elapsed="2.248407"/>
+</kw>
+<status status="PASS" start="2026-07-09T16:39:53.390231" elapsed="17.609275"/>
+</test>
+<status status="PASS" start="2026-07-09T16:39:52.877526" elapsed="18.122932"/>
+</suite>
+<status status="PASS" start="2026-07-09T16:39:52.811168" elapsed="18.190698"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Suites" id="s1" pass="1" fail="0" skip="0">Suites</stat>
+<stat name="Window" id="s1-s1" pass="1" fail="0" skip="0">Suites.Window</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

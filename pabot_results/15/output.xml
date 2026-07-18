@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.13.14 on win32)" generated="2026-07-09T16:39:32.697918" rpa="false" schemaversion="5">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="SetUpAndTearDown" source="C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\TestCases\SetUpAndTearDown.robot">
+<kw name="Log To Console" owner="BuiltIn" type="SETUP">
+<arg>opening browser</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-07-09T16:39:32.807649" elapsed="0.000686"/>
+</kw>
+<test id="s1-s1-t1" name="TC1" line="10">
+<kw name="Log To Console" owner="BuiltIn" type="SETUP">
+<arg>login into application</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-07-09T16:39:32.809759" elapsed="0.000713"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>This is recharge test</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-07-09T16:39:32.810951" elapsed="0.000734"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn" type="TEARDOWN">
+<arg>logoff from application</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-07-09T16:39:32.812058" elapsed="0.000474"/>
+</kw>
+<tag>ex1</tag>
+<status status="PASS" start="2026-07-09T16:39:32.808898" elapsed="0.003748"/>
+</test>
+<test id="s1-s1-t2" name="TC2" line="13">
+<kw name="Log To Console" owner="BuiltIn" type="SETUP">
+<arg>login into application</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-07-09T16:39:32.813594" elapsed="0.000378"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>This is postpade test</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-07-09T16:39:32.814136" elapsed="0.000429"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn" type="TEARDOWN">
+<arg>logoff from application</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-07-09T16:39:32.814860" elapsed="0.000326"/>
+</kw>
+<tag>ex2</tag>
+<status status="PASS" start="2026-07-09T16:39:32.813140" elapsed="0.002379"/>
+</test>
+<test id="s1-s1-t3" name="TC3" line="16">
+<kw name="Log To Console" owner="BuiltIn" type="SETUP">
+<arg>login into application</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-07-09T16:39:32.816777" elapsed="0.000534"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>This is Search test</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-07-09T16:39:32.817543" elapsed="0.000520"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn" type="TEARDOWN">
+<arg>logoff from application</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-07-09T16:39:32.818400" elapsed="0.000391"/>
+</kw>
+<tag>ex3</tag>
+<status status="PASS" start="2026-07-09T16:39:32.816186" elapsed="0.002679"/>
+</test>
+<kw name="Log To Console" owner="BuiltIn" type="TEARDOWN">
+<arg>closing browser</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-07-09T16:39:32.819390" elapsed="0.000339"/>
+</kw>
+<status status="PASS" start="2026-07-09T16:39:32.804029" elapsed="0.015756"/>
+</suite>
+<status status="PASS" start="2026-07-09T16:39:32.700611" elapsed="0.119985"/>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">ex1</stat>
+<stat pass="1" fail="0" skip="0">ex2</stat>
+<stat pass="1" fail="0" skip="0">ex3</stat>
+</tag>
+<suite>
+<stat name="Suites" id="s1" pass="3" fail="0" skip="0">Suites</stat>
+<stat name="SetUpAndTearDown" id="s1-s1" pass="3" fail="0" skip="0">Suites.SetUpAndTearDown</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,40 @@
+==============================================================================
+Suites
+==============================================================================
+Suites.Radiobutton
+==============================================================================
+Dropdown operation                                                    | FAIL |
+ElementClickInterceptedException: Message: element click intercepted: Element <span class="multiselect-selected-text">...</span> is not clickable at point (747, 665). Other element would receive the click: <div class="cookies-eu-banner">...</div>
+  (Session info: chrome=150.0.7871.47); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff69a4ea865+152a5]
+	chromedriver!GetHandleVerifier [0x7ff69a4ea8c0+15300]
+	chromedriver!(No symbol) [0x7ff69a04596d]
+	chromedriver!(No symbol) [0x7ff69a0a8225]
+	chromedriver!(No symbol) [0x7ff69a0a5e43]
+	chromedriver!(No symbol) [0x7ff69a0a3197]
+	chromedriver!(No symbol) [0x7ff69a0a2060]
+	chromedriver!(No symbol) [0x7ff69a094a58]
+	chromedriver!(No symbol) [0x7ff69a0c8e6a]
+	chromedriver!(No symbol) [0x7ff69a0942d6]
+	chromedriver!(No symbol) [0x7ff69a0edcf4]
+	chromedriver!(No symbol) [0x7ff69a092b3c]
+	chromedriver!(No symbol) [0x7ff69a093a53]
+	chromedriver!GetHandleVerifier [0x7ff69aacd3a1+5f7de1]
+	chromedriver!GetHandleVerifier [0x7ff69aac7a3b+5f247b]
+	chromedriver!GetHandleVerifier [0x7ff69aaebca5+6166e5]
+	chromedriver!GetHandleVerifier [0x7ff69a5072ae+31cee]
+	chromedriver!GetHandleVerifier [0x7ff69a50fe3c+3a87c]
+	chromedriver!GetHandleVerifier [0x7ff69a4f4404+1ee44]
+	chromedriver!GetHandleVerifier [0x7ff69a4f4594+1efd4]
+	chromedriver!GetHandleVerifier [0x7ff69a4d75c7+2007]
+	KERNEL32!BaseThreadInitThunk [0x7ff8eadfe957+17]
+	ntdll!RtlUserThreadStart [0x7ff8ec967c1c+2c]
+------------------------------------------------------------------------------
+Suites.Radiobutton                                                    | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\Results\pabot_results\12\output.xml

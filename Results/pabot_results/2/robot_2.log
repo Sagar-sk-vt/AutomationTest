@@ -1,0 +1,36 @@
+2026-07-09 21:07:12.031069 ==============================================================================
+2026-07-09 21:07:12.081101 Suites
+2026-07-09 21:07:12.081163 ==============================================================================
+2026-07-09 21:07:12.639193 Suites.DataDrivenTesting 1
+2026-07-09 21:07:12.639193 [ ERROR ] Error in file 'C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\TestCases\DataDrivenTesting_1.robot' on line 3: Resource file '..\Resources\Login_Resources.robot' does not exist.
+2026-07-09 21:07:12.656140 ==============================================================================
+2026-07-09 21:07:12.656462 Invalid User and Password                                             | FAIL |
+2026-07-09 21:07:12.662564 Parent suite setup failed:
+2026-07-09 21:07:12.662591 No keyword with name 'Open My Browser' found. Did you mean:
+2026-07-09 21:07:12.662612     SeleniumLibrary.Open Browser
+2026-07-09 21:07:12.662632 ------------------------------------------------------------------------------
+2026-07-09 21:07:12.662650 Invalid User and correct Password                                     | FAIL |
+2026-07-09 21:07:12.664553 Parent suite setup failed:
+2026-07-09 21:07:12.664584 No keyword with name 'Open My Browser' found. Did you mean:
+2026-07-09 21:07:12.664603     SeleniumLibrary.Open Browser
+2026-07-09 21:07:12.664620 ------------------------------------------------------------------------------
+2026-07-09 21:07:12.664636 Correct User and invalid Password                                     | FAIL |
+2026-07-09 21:07:12.665430 Parent suite setup failed:
+2026-07-09 21:07:12.665469 No keyword with name 'Open My Browser' found. Did you mean:
+2026-07-09 21:07:12.665488     SeleniumLibrary.Open Browser
+2026-07-09 21:07:12.665505 ------------------------------------------------------------------------------
+2026-07-09 21:07:12.665523 Suites.DataDrivenTesting 1                                            | FAIL |
+2026-07-09 21:07:12.669808 Suite setup failed:
+2026-07-09 21:07:12.669837 No keyword with name 'Open My Browser' found. Did you mean:
+2026-07-09 21:07:12.669855     SeleniumLibrary.Open Browser
+2026-07-09 21:07:12.669873 
+2026-07-09 21:07:12.669890 Also suite teardown failed:
+2026-07-09 21:07:12.669906 No keyword with name 'Closed Browser' found. Did you mean:
+2026-07-09 21:07:12.669921     SeleniumLibrary.Close Browser
+2026-07-09 21:07:12.669938 
+2026-07-09 21:07:12.669960 3 tests, 0 passed, 3 failed
+2026-07-09 21:07:12.669974 ==============================================================================
+2026-07-09 21:07:12.669990 Suites                                                                | FAIL |
+2026-07-09 21:07:12.671111 3 tests, 0 passed, 3 failed
+2026-07-09 21:07:12.671135 ==============================================================================
+2026-07-09 21:07:12.671152 Output:  C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\Results\pabot_results\2\output.xml

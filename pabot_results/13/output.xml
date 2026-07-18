@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.13.14 on win32)" generated="2026-07-09T16:39:15.342962" rpa="false" schemaversion="5">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Screenshot" source="C:\Users\SagarKhobragade\PycharmProjects\AutomationTest\TestCases\Screenshot.robot">
+<test id="s1-s1-t1" name="PageScreenshotTest" line="9">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-07-09T16:39:16.027446" level="INFO">Opening browser 'chrome' to base url 'https://shopmastercardmerchb2c.lapine.dev/QA/'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-07-09T16:39:16.026311" elapsed="4.531400"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-07-09T16:39:20.558409" elapsed="7.712786"/>
+</kw>
+<kw name="Capture Element Screenshot" owner="SeleniumLibrary">
+<msg time="2026-07-09T16:39:28.619742" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../../../Automation/logo.png"&gt;&lt;img src="../../../Automation/logo.png" width="400px"&gt;&lt;/a&gt;</msg>
+<arg>xpath://*[@id="logo"]/a/img</arg>
+<arg>C:/Users/SagarKhobragade/PycharmProjects/Automation/logo.png</arg>
+<doc>Captures a screenshot from the element identified by ``locator`` and embeds it into log file.</doc>
+<status status="PASS" start="2026-07-09T16:39:28.272366" elapsed="0.347623"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2026-07-09T16:39:29.384167" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../../../Automation/PageScreenshotTest.png"&gt;&lt;img src="../../../Automation/PageScreenshotTest.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>C:/Users/SagarKhobragade/PycharmProjects/Automation/PageScreenshotTest.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2026-07-09T16:39:28.620356" elapsed="0.764054"/>
+</kw>
+<kw name="Close All Browsers" owner="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2026-07-09T16:39:29.384874" elapsed="2.413609"/>
+</kw>
+<status status="PASS" start="2026-07-09T16:39:16.022191" elapsed="15.776803"/>
+</test>
+<status status="PASS" start="2026-07-09T16:39:15.424253" elapsed="16.375617"/>
+</suite>
+<status status="PASS" start="2026-07-09T16:39:15.347060" elapsed="16.454115"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Suites" id="s1" pass="1" fail="0" skip="0">Suites</stat>
+<stat name="Screenshot" id="s1-s1" pass="1" fail="0" skip="0">Suites.Screenshot</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
