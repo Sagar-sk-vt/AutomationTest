@@ -32,6 +32,8 @@ GetShippingInfo
     ${contentTypeValue}=    Get From Dictionary    ${response.headers}    server
     Should Be Equal    ${contentTypeValue}    Apache
 
+    # Check the git commint for this update onlly
+
 
 
 
